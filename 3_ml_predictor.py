@@ -40,7 +40,7 @@ from config import (
     YFINANCE_PERIOD, TEST_SPLIT_RATIO, MIN_TRADING_DAYS,
     RSI_PERIOD, MACD_FAST, MACD_SLOW, MACD_SIGNAL,
     EMA_PERIOD, SMA_PERIOD, BOLLINGER_PERIOD, BOLLINGER_STD,
-    MODELS_TO_TRAIN
+    MODELS_TO_TRAIN, CHART_LOOKBACK_DAYS, HOLDOUT_LAST_DAY
 )
 
 # -----------------------------------------------------------------------------
@@ -84,7 +84,7 @@ def compute_bollinger(series: pd.Series) -> tuple[pd.Series, pd.Series, pd.Serie
     return upper, mid, lower
 
 
-def engineer_features(df: pd.DataFrame) -> pd.DataFrame:
+def engineer_features(df: pd.DataFrame, for_inference: bool = False) -> pd.DataFrame:
     """
     Take raw OHLCV DataFrame from yfinance and return a feature matrix.
     Target column: 'target' = next day's closing price (shifted -1).
@@ -134,8 +134,14 @@ def engineer_features(df: pd.DataFrame) -> pd.DataFrame:
     # --- Target: next day's close ---
     df["target"] = close.shift(-1)
 
-    # Drop rows with NaN from rolling windows or shifts
-    df.dropna(inplace=True)
+    # Drop rows with NaN from rolling windows or shifts.
+    # For inference we keep the newest row (its target is unknown by design),
+    # so the model can predict the day AFTER the last known close.
+    if for_inference:
+        feature_cols = [c for c in FEATURE_COLUMNS if c in df.columns]
+        df.dropna(subset=feature_cols, inplace=True)
+    else:
+        df.dropna(inplace=True)
 
     return df
 
@@ -254,6 +260,16 @@ def train_ticker(ticker: str) -> dict | None:
     if isinstance(raw.columns, pd.MultiIndex):
         raw.columns = raw.columns.get_level_values(0)
 
+    # Hold out the latest trading day as the "actual" outcome (never trained on)
+    actual_row = None
+    if HOLDOUT_LAST_DAY and len(raw) > MIN_TRADING_DAYS + 1:
+        actual_row = raw.iloc[-1]
+        raw = raw.iloc[:-1]
+
+    as_of_ts = raw.index[-1]
+    log.info(f"  Data as of {as_of_ts.date()}"
+             + (f" | holding out {actual_row.name.date()} as actual" if actual_row is not None else ""))
+
     # 2. Engineer features
     df = engineer_features(raw)
 
@@ -300,9 +316,10 @@ def train_ticker(ticker: str) -> dict | None:
     joblib.dump(best_model, model_path)
     log.info(f"  ✅ Best model: {best_name} → saved to {model_path}")
 
-    # 6. Predict tomorrow's price using the last row of ALL data (most recent)
-    # Re-engineer features on full dataset to get the latest feature vector
-    df_full = engineer_features(raw)
+    # 6. Predict the NEXT trading day after the last known close.
+    # for_inference=True keeps the newest row (the normal pipeline drops it
+    # because its target is unknown), so this is a genuine next-day forecast.
+    df_full = engineer_features(raw, for_inference=True)
     last_features = df_full[feature_cols].iloc[-1].values.reshape(1, -1)
 
     try:
@@ -311,12 +328,36 @@ def train_ticker(ticker: str) -> dict | None:
         log.warning(f"  Prediction failed for {ticker}: {e}")
         tomorrow_prediction = None
 
-    current_price = float(df["Close"].iloc[-1])
+    current_price = float(raw["Close"].iloc[-1])   # close on the as-of date
+
+    if actual_row is not None:
+        predicted_for = actual_row.name
+        actual_next_close = round(float(actual_row["Close"]), 4)
+    else:
+        predicted_for = pd.bdate_range(as_of_ts, periods=2)[-1]
+        actual_next_close = None
+
+    # Store recent OHLC so the deployed dashboard needs no live price fetch
+    hist = raw.tail(CHART_LOOKBACK_DAYS)
+    price_history = [
+        {
+            "date":  idx.strftime("%Y-%m-%d"),
+            "open":  round(float(r["Open"]), 4),
+            "high":  round(float(r["High"]), 4),
+            "low":   round(float(r["Low"]), 4),
+            "close": round(float(r["Close"]), 4),
+        }
+        for idx, r in hist.iterrows()
+    ]
 
     return {
         "ticker":              ticker,
         "best_model":          best_name,
         "model_path":          model_path,
+        "as_of_date":          as_of_ts.strftime("%Y-%m-%d"),
+        "predicted_for_date":  predicted_for.strftime("%Y-%m-%d"),
+        "actual_next_close":   actual_next_close,
+        "price_history":       price_history,
         "current_price":       round(current_price, 4),
         "predicted_next_close": round(tomorrow_prediction, 4) if tomorrow_prediction else None,
         "predicted_direction": (

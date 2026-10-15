@@ -180,6 +180,12 @@ MAX_POSTS_PER_TICKER_FOR_SUMMARY = 1
 # Number of days of price history shown on the candlestick chart
 CHART_LOOKBACK_DAYS = 30
 
+# Hold out the most recent trading day as the "actual" outcome.
+# The model trains on data up to the day BEFORE it, predicts that day,
+# and the dashboard shows prediction vs actual. Run the pipeline AFTER
+# the US market has closed so the last day is a complete daily bar.
+HOLDOUT_LAST_DAY = True
+
 # Sentiment gauge color thresholds (VADER compound score)
 SENTIMENT_BULLISH_THRESHOLD = 0.05
 SENTIMENT_BEARISH_THRESHOLD = -0.05

@@ -105,7 +105,28 @@ def fetch_price_history(ticker: str, days: int) -> pd.DataFrame:
 # Chart Builders
 # =============================================================================
 
-def build_candlestick_chart(df: pd.DataFrame, ticker: str) -> go.Figure:
+def history_from_meta(ticker_ml: dict) -> pd.DataFrame:
+    """Price history saved by the pipeline (no live fetch needed)."""
+    rows = ticker_ml.get("price_history")
+    if not rows:
+        return pd.DataFrame()
+    df = pd.DataFrame(rows)
+    df["date"] = pd.to_datetime(df["date"])
+    return df.set_index("date").rename(
+        columns={"open": "Open", "high": "High", "low": "Low", "close": "Close"}
+    )
+
+
+def fmt_date(iso: str) -> str:
+    """'2026-10-12' -> '12 Oct'"""
+    try:
+        return pd.to_datetime(iso).strftime("%d %b").lstrip("0")
+    except Exception:
+        return "N/A"
+
+
+def build_candlestick_chart(df: pd.DataFrame, ticker: str,
+                            pred_date=None, pred_price=None, actual_price=None) -> go.Figure:
     """Plotly candlestick chart with EMA, SMA, and Bollinger Bands overlaid."""
     if df.empty:
         fig = go.Figure()
@@ -161,8 +182,24 @@ def build_candlestick_chart(df: pd.DataFrame, ticker: str) -> go.Figure:
         name=f"SMA {SMA_PERIOD}",
     ))
 
+    # Predicted vs actual next-day close
+    if pred_date and pred_price:
+        fig.add_trace(go.Scatter(
+            x=[pd.to_datetime(pred_date)], y=[pred_price],
+            mode="markers", name="Model prediction",
+            marker=dict(symbol="diamond", size=13, color="#f9e2af",
+                        line=dict(width=1, color="#181825")),
+        ))
+    if pred_date and actual_price:
+        fig.add_trace(go.Scatter(
+            x=[pd.to_datetime(pred_date)], y=[actual_price],
+            mode="markers", name="Actual close",
+            marker=dict(symbol="circle", size=11, color="#ffffff",
+                        line=dict(width=2, color="#40d158")),
+        ))
+
     fig.update_layout(
-        title=dict(text=f"{ticker} — Last {CHART_LOOKBACK_DAYS} Days", font=dict(color="#cdd6f4")),
+        title=dict(text=f"{ticker} — Last {CHART_LOOKBACK_DAYS} Days + Next-Day Check", font=dict(color="#cdd6f4")),
         xaxis_rangeslider_visible=False,
         paper_bgcolor="#181825",
         plot_bgcolor="#181825",
@@ -373,6 +410,24 @@ def main():
     st.markdown("## 📈 Stock Intelligence & Social Sentiment Dashboard")
     st.caption(f"Data last processed: {filtered_data.get('processed_at', 'N/A')[:19].replace('T',' ')} UTC")
 
+    # Scorecard: how did the next-day predictions do across all tickers?
+    _preds = model_metadata.get("predictions", {})
+    _scored = [p for p in _preds.values()
+               if p.get("actual_next_close") and p.get("predicted_next_close") and p.get("current_price")]
+    if _scored:
+        _hits = sum(
+            (p["actual_next_close"] > p["current_price"]) == (p["predicted_next_close"] > p["current_price"])
+            for p in _scored
+        )
+        _err = sum(abs(p["predicted_next_close"] - p["actual_next_close"]) / p["actual_next_close"]
+                   for p in _scored) / len(_scored) * 100
+        st.info(
+            f"📌 Models trained on prices through **{fmt_date(_scored[0].get('as_of_date', ''))}**. "
+            f"Next-day check for **{fmt_date(_scored[0].get('predicted_for_date', ''))}**: "
+            f"direction called correctly for **{_hits}/{len(_scored)}** tickers, "
+            f"average price error **{_err:.2f}%**. (A one-day check, not a long-run accuracy claim.)"
+        )
+
     # -------------------------------------------------------------------
     # Check if data is available
     # -------------------------------------------------------------------
@@ -447,14 +502,18 @@ python scripts/4_crewai_summary.py
     ticker_posts    = [p for p in all_posts if ticker in p.get("tickers", [])]
 
     # Price history
-    price_df        = fetch_price_history(ticker, CHART_LOOKBACK_DAYS)
+    price_df        = history_from_meta(ticker_ml)
+    if price_df.empty:   # old data file without saved history -> fall back to live fetch
+        price_df    = fetch_price_history(ticker, CHART_LOOKBACK_DAYS)
+    as_of_label     = fmt_date(ticker_ml.get("as_of_date", ""))
+    pred_for_label  = fmt_date(ticker_ml.get("predicted_for_date", ""))
 
     # -------------------------------------------------------------------
     # Row 1: Key Metrics
     # -------------------------------------------------------------------
     st.markdown(f"### {ticker}")
 
-    col1, col2, col3, col4, col5 = st.columns(5)
+    col1, col2, col3, col4, col5, col6 = st.columns(6)
 
     # Current price
     current_price = ticker_ml.get("current_price")
@@ -462,7 +521,7 @@ python scripts/4_crewai_summary.py
         current_price = float(price_df["Close"].iloc[-1])
 
     col1.metric(
-        "Current Price",
+        f"Close ({as_of_label})" if ticker_ml.get("as_of_date") else "Current Price",
         f"${current_price:.2f}" if current_price else "N/A",
     )
 
@@ -470,29 +529,42 @@ python scripts/4_crewai_summary.py
     predicted_price = ticker_ml.get("predicted_next_close")
     if predicted_price and current_price:
         col2.metric(
-            "Predicted Tomorrow",
+            f"Predicted ({pred_for_label})" if ticker_ml.get("predicted_for_date") else "Predicted Next Day",
             f"${predicted_price:.2f}",
             delta=direction_delta(current_price, predicted_price),
         )
     else:
-        col2.metric("Predicted Tomorrow", "N/A")
+        col2.metric("Predicted Next Day", "N/A")
+
+    # Actual price on the predicted day (held out from training)
+    actual_price = ticker_ml.get("actual_next_close")
+    if actual_price and predicted_price:
+        err_pct = (predicted_price - actual_price) / actual_price * 100
+        col3.metric(
+            f"Actual ({pred_for_label})",
+            f"${actual_price:.2f}",
+            delta=f"{err_pct:+.2f}% model error",
+            delta_color="off",
+        )
+    else:
+        col3.metric("Actual", "N/A")
 
     # Best model
-    col3.metric(
+    col4.metric(
         "Best ML Model",
         ticker_ml.get("best_model", "N/A"),
         delta=f"R²={ticker_ml.get('best_model_metrics', {}).get('r2', 'N/A')}" if ticker_ml else None,
     )
 
     # VADER score
-    col4.metric(
+    col5.metric(
         "VADER Compound",
         f"{compound:+.4f}",
         delta=ticker_sentiment.get("label", "neutral"),
     )
 
     # Reddit post count
-    col5.metric("Reddit Posts", post_count)
+    col6.metric("Reddit Posts", post_count)
 
     st.markdown("---")
 
@@ -503,7 +575,12 @@ python scripts/4_crewai_summary.py
 
     with chart_col:
         st.markdown('<p class="section-header">📉 Price Chart</p>', unsafe_allow_html=True)
-        fig_candle = build_candlestick_chart(price_df, ticker)
+        fig_candle = build_candlestick_chart(
+            price_df, ticker,
+            pred_date=ticker_ml.get("predicted_for_date"),
+            pred_price=ticker_ml.get("predicted_next_close"),
+            actual_price=ticker_ml.get("actual_next_close"),
+        )
         st.plotly_chart(fig_candle, use_container_width=True)
 
     with gauge_col:

@@ -1,92 +1,295 @@
 {
-  "generated_at": "2026-05-14T20:15:40.780539+00:00",
+  "generated_at": "2026-10-15T07:45:04.709625+00:00",
   "tickers_trained": [
     "AAPL",
-    "AMC",
     "AMD",
     "AMZN",
     "ARKK",
-    "BB",
-    "BBBY",
-    "COIN",
-    "DIS",
-    "GME",
     "GOOGL",
-    "HOOD",
     "INTC",
     "JNJ",
     "JPM",
-    "LYFT",
     "MA",
     "META",
     "MSFT",
     "NFLX",
     "NVDA",
-    "PYPL",
     "QQQ",
-    "SHOP",
     "SNAP",
     "SPOT",
     "SPY",
     "TSLA",
     "UBER",
     "UNH",
-    "V",
     "WMT",
     "XOM"
   ],
   "tickers_failed": [
-    "BRK",
-    "SQ"
+    "BRK"
   ],
   "predictions": {
     "AAPL": {
       "ticker": "AAPL",
       "best_model": "Ridge",
-      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2\\models\\AAPL_best_model.pkl",
-      "current_price": 298.87,
-      "predicted_next_close": 293.196,
+      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2_updated\\models\\AAPL_best_model.pkl",
+      "as_of_date": "2026-10-13",
+      "predicted_for_date": "2026-10-14",
+      "actual_next_close": 342.96,
+      "price_history": [
+        {
+          "date": "2026-09-01",
+          "open": 316.98,
+          "high": 327.3,
+          "low": 314.73,
+          "close": 325.13
+        },
+        {
+          "date": "2026-09-02",
+          "open": 326.87,
+          "high": 328.4,
+          "low": 323.53,
+          "close": 324.96
+        },
+        {
+          "date": "2026-09-03",
+          "open": 324.87,
+          "high": 330.81,
+          "low": 324.11,
+          "close": 328.21
+        },
+        {
+          "date": "2026-09-04",
+          "open": 328.31,
+          "high": 328.93,
+          "low": 317.86,
+          "close": 319.97
+        },
+        {
+          "date": "2026-09-08",
+          "open": 317.1,
+          "high": 320.7,
+          "low": 314.9,
+          "close": 316.22
+        },
+        {
+          "date": "2026-09-09",
+          "open": 315.49,
+          "high": 319.15,
+          "low": 309.9,
+          "close": 315.34
+        },
+        {
+          "date": "2026-09-10",
+          "open": 316.67,
+          "high": 326.74,
+          "low": 316.51,
+          "close": 326.57
+        },
+        {
+          "date": "2026-09-11",
+          "open": 327.45,
+          "high": 336.22,
+          "low": 326.3,
+          "close": 332.27
+        },
+        {
+          "date": "2026-09-14",
+          "open": 334.79,
+          "high": 335.5,
+          "low": 331.34,
+          "close": 333.08
+        },
+        {
+          "date": "2026-09-15",
+          "open": 330.14,
+          "high": 331.78,
+          "low": 328.35,
+          "close": 331.34
+        },
+        {
+          "date": "2026-09-16",
+          "open": 332.53,
+          "high": 335.48,
+          "low": 330.7,
+          "close": 332.41
+        },
+        {
+          "date": "2026-09-17",
+          "open": 334.77,
+          "high": 338.34,
+          "low": 330.18,
+          "close": 337.0
+        },
+        {
+          "date": "2026-09-18",
+          "open": 337.91,
+          "high": 338.49,
+          "low": 332.53,
+          "close": 336.13
+        },
+        {
+          "date": "2026-09-21",
+          "open": 335.28,
+          "high": 339.64,
+          "low": 333.05,
+          "close": 338.98
+        },
+        {
+          "date": "2026-09-22",
+          "open": 340.14,
+          "high": 345.34,
+          "low": 338.75,
+          "close": 339.75
+        },
+        {
+          "date": "2026-09-23",
+          "open": 341.08,
+          "high": 341.8,
+          "low": 335.5,
+          "close": 337.02
+        },
+        {
+          "date": "2026-09-24",
+          "open": 336.72,
+          "high": 338.91,
+          "low": 334.3,
+          "close": 335.92
+        },
+        {
+          "date": "2026-09-25",
+          "open": 336.04,
+          "high": 341.67,
+          "low": 334.53,
+          "close": 341.07
+        },
+        {
+          "date": "2026-09-28",
+          "open": 340.37,
+          "high": 342.99,
+          "low": 338.04,
+          "close": 338.4
+        },
+        {
+          "date": "2026-09-29",
+          "open": 336.97,
+          "high": 337.09,
+          "low": 328.7,
+          "close": 329.4
+        },
+        {
+          "date": "2026-09-30",
+          "open": 330.8,
+          "high": 339.5,
+          "low": 330.14,
+          "close": 333.02
+        },
+        {
+          "date": "2026-10-01",
+          "open": 330.0,
+          "high": 332.48,
+          "low": 325.81,
+          "close": 330.32
+        },
+        {
+          "date": "2026-10-02",
+          "open": 333.26,
+          "high": 334.54,
+          "low": 330.61,
+          "close": 333.69
+        },
+        {
+          "date": "2026-10-05",
+          "open": 332.82,
+          "high": 336.21,
+          "low": 331.65,
+          "close": 332.89
+        },
+        {
+          "date": "2026-10-06",
+          "open": 332.28,
+          "high": 334.38,
+          "low": 330.62,
+          "close": 333.63
+        },
+        {
+          "date": "2026-10-07",
+          "open": 336.96,
+          "high": 338.67,
+          "low": 332.78,
+          "close": 336.67
+        },
+        {
+          "date": "2026-10-08",
+          "open": 336.82,
+          "high": 341.57,
+          "low": 335.9,
+          "close": 340.42
+        },
+        {
+          "date": "2026-10-09",
+          "open": 331.7,
+          "high": 338.61,
+          "low": 330.7,
+          "close": 336.64
+        },
+        {
+          "date": "2026-10-12",
+          "open": 338.22,
+          "high": 342.63,
+          "low": 337.6,
+          "close": 340.97
+        },
+        {
+          "date": "2026-10-13",
+          "open": 344.67,
+          "high": 348.15,
+          "low": 340.74,
+          "close": 341.27
+        }
+      ],
+      "current_price": 341.27,
+      "predicted_next_close": 334.5687,
       "predicted_direction": "down",
       "all_model_metrics": {
         "XGBoost": {
-          "rmse": 7.4714,
-          "mae": 5.2886,
-          "r2": 0.7545,
-          "mape": 1.9225
+          "rmse": 14.5879,
+          "mae": 12.4606,
+          "r2": -0.9558,
+          "mape": 3.7393
         },
         "RandomForest": {
-          "rmse": 5.9654,
-          "mae": 4.2649,
-          "r2": 0.8435,
-          "mape": 1.5472
+          "rmse": 11.2956,
+          "mae": 9.7298,
+          "r2": -0.1726,
+          "mape": 2.9201
         },
         "GradientBoosting": {
-          "rmse": 6.9758,
-          "mae": 5.1607,
-          "r2": 0.7859,
-          "mape": 1.8789
+          "rmse": 15.3623,
+          "mae": 13.1743,
+          "r2": -1.169,
+          "mape": 3.9525
         },
         "Ridge": {
-          "rmse": 5.1208,
-          "mae": 4.0077,
-          "r2": 0.8847,
-          "mape": 1.473
+          "rmse": 6.7189,
+          "mae": 5.6388,
+          "r2": 0.5851,
+          "mape": 1.7036
         },
         "SVR": {
-          "rmse": 10.0381,
-          "mae": 6.8327,
-          "r2": 0.5568,
-          "mape": 2.4759
+          "rmse": 22.4823,
+          "mae": 19.2885,
+          "r2": -3.6454,
+          "mape": 5.8034
         }
       },
       "best_model_metrics": {
-        "rmse": 5.1208,
-        "mae": 4.0077,
-        "r2": 0.8847,
-        "mape": 1.473
+        "rmse": 6.7189,
+        "mae": 5.6388,
+        "r2": 0.5851,
+        "mape": 1.7036
       },
       "train_rows": 160,
-      "test_rows": 41,
+      "test_rows": 40,
       "feature_columns": [
         "ema_20",
         "sma_50",
@@ -114,131 +317,270 @@
         "Close",
         "Volume"
       ],
-      "trained_at": "2026-05-14T20:14:31.010305+00:00"
-    },
-    "AMC": {
-      "ticker": "AMC",
-      "best_model": "Ridge",
-      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2\\models\\AMC_best_model.pkl",
-      "current_price": 1.33,
-      "predicted_next_close": 1.2805,
-      "predicted_direction": "down",
-      "all_model_metrics": {
-        "XGBoost": {
-          "rmse": 0.2228,
-          "mae": 0.1753,
-          "r2": 0.3273,
-          "mape": 12.2943
-        },
-        "RandomForest": {
-          "rmse": 0.1587,
-          "mae": 0.1299,
-          "r2": 0.6587,
-          "mape": 9.3396
-        },
-        "GradientBoosting": {
-          "rmse": 0.1593,
-          "mae": 0.1304,
-          "r2": 0.6562,
-          "mape": 9.3985
-        },
-        "Ridge": {
-          "rmse": 0.117,
-          "mae": 0.0887,
-          "r2": 0.8145,
-          "mape": 6.0046
-        },
-        "SVR": {
-          "rmse": 0.5701,
-          "mae": 0.529,
-          "r2": -3.4032,
-          "mape": 37.9324
-        }
-      },
-      "best_model_metrics": {
-        "rmse": 0.117,
-        "mae": 0.0887,
-        "r2": 0.8145,
-        "mape": 6.0046
-      },
-      "train_rows": 160,
-      "test_rows": 41,
-      "feature_columns": [
-        "ema_20",
-        "sma_50",
-        "rsi",
-        "macd",
-        "macd_signal",
-        "macd_hist",
-        "bb_upper",
-        "bb_lower",
-        "bb_width",
-        "bb_position",
-        "close_to_ema20",
-        "close_to_sma50",
-        "high_low_range",
-        "return_1d",
-        "return_5d",
-        "return_10d",
-        "volume_ratio",
-        "lag_1",
-        "lag_2",
-        "lag_5",
-        "Open",
-        "High",
-        "Low",
-        "Close",
-        "Volume"
-      ],
-      "trained_at": "2026-05-14T20:14:32.201983+00:00"
+      "trained_at": "2026-10-15T07:44:12.118517+00:00"
     },
     "AMD": {
       "ticker": "AMD",
       "best_model": "Ridge",
-      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2\\models\\AMD_best_model.pkl",
-      "current_price": 445.5,
-      "predicted_next_close": 423.9305,
+      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2_updated\\models\\AMD_best_model.pkl",
+      "as_of_date": "2026-10-13",
+      "predicted_for_date": "2026-10-14",
+      "actual_next_close": 570.82,
+      "price_history": [
+        {
+          "date": "2026-09-01",
+          "open": 459.91,
+          "high": 461.5,
+          "low": 452.3,
+          "close": 459.61
+        },
+        {
+          "date": "2026-09-02",
+          "open": 459.51,
+          "high": 462.21,
+          "low": 452.36,
+          "close": 457.06
+        },
+        {
+          "date": "2026-09-03",
+          "open": 453.15,
+          "high": 459.77,
+          "low": 440.5,
+          "close": 456.16
+        },
+        {
+          "date": "2026-09-04",
+          "open": 462.0,
+          "high": 478.83,
+          "low": 458.0,
+          "close": 477.57
+        },
+        {
+          "date": "2026-09-08",
+          "open": 488.92,
+          "high": 512.36,
+          "low": 486.57,
+          "close": 505.74
+        },
+        {
+          "date": "2026-09-09",
+          "open": 507.5,
+          "high": 526.79,
+          "low": 506.36,
+          "close": 521.1
+        },
+        {
+          "date": "2026-09-10",
+          "open": 509.07,
+          "high": 516.33,
+          "low": 502.81,
+          "close": 503.6
+        },
+        {
+          "date": "2026-09-11",
+          "open": 510.71,
+          "high": 521.06,
+          "low": 501.35,
+          "close": 516.13
+        },
+        {
+          "date": "2026-09-14",
+          "open": 486.28,
+          "high": 498.39,
+          "low": 480.33,
+          "close": 493.41
+        },
+        {
+          "date": "2026-09-15",
+          "open": 501.7,
+          "high": 513.67,
+          "low": 497.51,
+          "close": 504.2
+        },
+        {
+          "date": "2026-09-16",
+          "open": 517.39,
+          "high": 527.25,
+          "low": 506.05,
+          "close": 512.5
+        },
+        {
+          "date": "2026-09-17",
+          "open": 533.6,
+          "high": 551.42,
+          "low": 527.6,
+          "close": 545.09
+        },
+        {
+          "date": "2026-09-18",
+          "open": 547.37,
+          "high": 559.91,
+          "low": 541.53,
+          "close": 559.82
+        },
+        {
+          "date": "2026-09-21",
+          "open": 583.88,
+          "high": 616.69,
+          "low": 582.27,
+          "close": 615.52
+        },
+        {
+          "date": "2026-09-22",
+          "open": 606.57,
+          "high": 624.52,
+          "low": 606.31,
+          "close": 623.77
+        },
+        {
+          "date": "2026-09-23",
+          "open": 621.5,
+          "high": 624.69,
+          "low": 608.08,
+          "close": 614.61
+        },
+        {
+          "date": "2026-09-24",
+          "open": 600.27,
+          "high": 630.8,
+          "low": 599.24,
+          "close": 629.26
+        },
+        {
+          "date": "2026-09-25",
+          "open": 634.54,
+          "high": 639.0,
+          "low": 625.52,
+          "close": 630.63
+        },
+        {
+          "date": "2026-09-28",
+          "open": 624.9,
+          "high": 629.75,
+          "low": 596.07,
+          "close": 607.87
+        },
+        {
+          "date": "2026-09-29",
+          "open": 616.74,
+          "high": 624.13,
+          "low": 605.25,
+          "close": 607.57
+        },
+        {
+          "date": "2026-09-30",
+          "open": 609.89,
+          "high": 615.17,
+          "low": 600.1,
+          "close": 611.76
+        },
+        {
+          "date": "2026-10-01",
+          "open": 612.7,
+          "high": 619.3,
+          "low": 601.5,
+          "close": 615.73
+        },
+        {
+          "date": "2026-10-02",
+          "open": 635.95,
+          "high": 645.46,
+          "low": 628.55,
+          "close": 633.91
+        },
+        {
+          "date": "2026-10-05",
+          "open": 630.61,
+          "high": 633.5,
+          "low": 619.99,
+          "close": 631.75
+        },
+        {
+          "date": "2026-10-06",
+          "open": 648.04,
+          "high": 658.52,
+          "low": 628.0,
+          "close": 649.42
+        },
+        {
+          "date": "2026-10-07",
+          "open": 634.77,
+          "high": 648.48,
+          "low": 633.16,
+          "close": 645.86
+        },
+        {
+          "date": "2026-10-08",
+          "open": 639.36,
+          "high": 643.85,
+          "low": 613.34,
+          "close": 620.68
+        },
+        {
+          "date": "2026-10-09",
+          "open": 626.89,
+          "high": 627.37,
+          "low": 606.0,
+          "close": 608.1
+        },
+        {
+          "date": "2026-10-12",
+          "open": 599.93,
+          "high": 601.77,
+          "low": 586.54,
+          "close": 594.24
+        },
+        {
+          "date": "2026-10-13",
+          "open": 577.5,
+          "high": 606.2,
+          "low": 570.6,
+          "close": 605.53
+        }
+      ],
+      "current_price": 605.53,
+      "predicted_next_close": 601.1623,
       "predicted_direction": "down",
       "all_model_metrics": {
         "XGBoost": {
-          "rmse": 107.6694,
-          "mae": 69.5934,
-          "r2": -0.6095,
-          "mape": 18.5023
+          "rmse": 71.3083,
+          "mae": 54.6243,
+          "r2": -0.0636,
+          "mape": 9.2063
         },
         "RandomForest": {
-          "rmse": 93.4069,
-          "mae": 60.152,
-          "r2": -0.2113,
-          "mape": 16.0002
+          "rmse": 60.3337,
+          "mae": 47.3337,
+          "r2": 0.2386,
+          "mape": 8.0372
         },
         "GradientBoosting": {
-          "rmse": 101.2436,
-          "mae": 65.3709,
-          "r2": -0.4231,
-          "mape": 17.3843
+          "rmse": 56.8091,
+          "mae": 43.6402,
+          "r2": 0.3249,
+          "mape": 7.3735
         },
         "Ridge": {
-          "rmse": 24.084,
-          "mae": 16.6313,
-          "r2": 0.9195,
-          "mape": 4.9995
+          "rmse": 41.6607,
+          "mae": 31.8317,
+          "r2": 0.637,
+          "mape": 5.5297
         },
         "SVR": {
-          "rmse": 114.9605,
-          "mae": 76.3128,
-          "r2": -0.8348,
-          "mape": 20.5791
+          "rmse": 113.6662,
+          "mae": 83.8966,
+          "r2": -1.7025,
+          "mape": 13.9276
         }
       },
       "best_model_metrics": {
-        "rmse": 24.084,
-        "mae": 16.6313,
-        "r2": 0.9195,
-        "mape": 4.9995
+        "rmse": 41.6607,
+        "mae": 31.8317,
+        "r2": 0.637,
+        "mape": 5.5297
       },
       "train_rows": 160,
-      "test_rows": 41,
+      "test_rows": 40,
       "feature_columns": [
         "ema_20",
         "sma_50",
@@ -266,55 +608,270 @@
         "Close",
         "Volume"
       ],
-      "trained_at": "2026-05-14T20:14:33.409807+00:00"
+      "trained_at": "2026-10-15T07:44:14.862689+00:00"
     },
     "AMZN": {
       "ticker": "AMZN",
       "best_model": "Ridge",
-      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2\\models\\AMZN_best_model.pkl",
-      "current_price": 270.13,
-      "predicted_next_close": 262.7941,
+      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2_updated\\models\\AMZN_best_model.pkl",
+      "as_of_date": "2026-10-13",
+      "predicted_for_date": "2026-10-14",
+      "actual_next_close": 254.08,
+      "price_history": [
+        {
+          "date": "2026-09-01",
+          "open": 254.83,
+          "high": 255.82,
+          "low": 251.93,
+          "close": 254.92
+        },
+        {
+          "date": "2026-09-02",
+          "open": 254.26,
+          "high": 256.24,
+          "low": 253.4,
+          "close": 254.98
+        },
+        {
+          "date": "2026-09-03",
+          "open": 256.2,
+          "high": 259.5,
+          "low": 256.0,
+          "close": 258.9
+        },
+        {
+          "date": "2026-09-04",
+          "open": 259.07,
+          "high": 261.12,
+          "low": 255.29,
+          "close": 258.51
+        },
+        {
+          "date": "2026-09-08",
+          "open": 256.68,
+          "high": 257.99,
+          "low": 254.75,
+          "close": 256.97
+        },
+        {
+          "date": "2026-09-09",
+          "open": 253.12,
+          "high": 254.69,
+          "low": 250.65,
+          "close": 252.4
+        },
+        {
+          "date": "2026-09-10",
+          "open": 250.11,
+          "high": 253.15,
+          "low": 249.58,
+          "close": 251.89
+        },
+        {
+          "date": "2026-09-11",
+          "open": 254.09,
+          "high": 257.59,
+          "low": 253.14,
+          "close": 256.78
+        },
+        {
+          "date": "2026-09-14",
+          "open": 253.15,
+          "high": 255.95,
+          "low": 250.74,
+          "close": 253.54
+        },
+        {
+          "date": "2026-09-15",
+          "open": 252.24,
+          "high": 253.27,
+          "low": 247.22,
+          "close": 248.42
+        },
+        {
+          "date": "2026-09-16",
+          "open": 248.1,
+          "high": 249.26,
+          "low": 244.3,
+          "close": 245.96
+        },
+        {
+          "date": "2026-09-17",
+          "open": 251.07,
+          "high": 252.73,
+          "low": 249.24,
+          "close": 251.19
+        },
+        {
+          "date": "2026-09-18",
+          "open": 252.92,
+          "high": 255.43,
+          "low": 251.88,
+          "close": 253.71
+        },
+        {
+          "date": "2026-09-21",
+          "open": 256.4,
+          "high": 259.49,
+          "low": 253.6,
+          "close": 258.45
+        },
+        {
+          "date": "2026-09-22",
+          "open": 255.11,
+          "high": 259.0,
+          "low": 253.78,
+          "close": 254.98
+        },
+        {
+          "date": "2026-09-23",
+          "open": 253.0,
+          "high": 253.99,
+          "low": 247.76,
+          "close": 249.27
+        },
+        {
+          "date": "2026-09-24",
+          "open": 246.02,
+          "high": 250.43,
+          "low": 245.6,
+          "close": 249.38
+        },
+        {
+          "date": "2026-09-25",
+          "open": 248.56,
+          "high": 250.88,
+          "low": 247.18,
+          "close": 249.67
+        },
+        {
+          "date": "2026-09-28",
+          "open": 246.63,
+          "high": 247.77,
+          "low": 244.73,
+          "close": 246.15
+        },
+        {
+          "date": "2026-09-29",
+          "open": 246.71,
+          "high": 248.84,
+          "low": 245.14,
+          "close": 246.67
+        },
+        {
+          "date": "2026-09-30",
+          "open": 246.79,
+          "high": 252.44,
+          "low": 246.08,
+          "close": 249.15
+        },
+        {
+          "date": "2026-10-01",
+          "open": 251.61,
+          "high": 251.83,
+          "low": 246.12,
+          "close": 248.23
+        },
+        {
+          "date": "2026-10-02",
+          "open": 251.51,
+          "high": 253.56,
+          "low": 250.02,
+          "close": 251.52
+        },
+        {
+          "date": "2026-10-05",
+          "open": 250.19,
+          "high": 254.53,
+          "low": 250.18,
+          "close": 251.4
+        },
+        {
+          "date": "2026-10-06",
+          "open": 253.4,
+          "high": 256.68,
+          "low": 251.08,
+          "close": 256.29
+        },
+        {
+          "date": "2026-10-07",
+          "open": 254.23,
+          "high": 260.14,
+          "low": 253.17,
+          "close": 259.92
+        },
+        {
+          "date": "2026-10-08",
+          "open": 259.74,
+          "high": 259.86,
+          "low": 253.78,
+          "close": 254.06
+        },
+        {
+          "date": "2026-10-09",
+          "open": 256.5,
+          "high": 262.8,
+          "low": 256.0,
+          "close": 262.43
+        },
+        {
+          "date": "2026-10-12",
+          "open": 262.5,
+          "high": 263.7,
+          "low": 259.27,
+          "close": 259.53
+        },
+        {
+          "date": "2026-10-13",
+          "open": 259.44,
+          "high": 262.84,
+          "low": 258.42,
+          "close": 258.58
+        }
+      ],
+      "current_price": 258.58,
+      "predicted_next_close": 257.57,
       "predicted_direction": "down",
       "all_model_metrics": {
         "XGBoost": {
-          "rmse": 18.6524,
-          "mae": 15.1969,
-          "r2": 0.483,
-          "mape": 6.0275
+          "rmse": 5.8818,
+          "mae": 4.8123,
+          "r2": -0.2482,
+          "mape": 1.8752
         },
         "RandomForest": {
-          "rmse": 16.2068,
-          "mae": 12.5428,
-          "r2": 0.6097,
-          "mape": 4.9481
+          "rmse": 4.9894,
+          "mae": 4.0187,
+          "r2": 0.1018,
+          "mape": 1.5669
         },
         "GradientBoosting": {
-          "rmse": 16.707,
-          "mae": 13.534,
-          "r2": 0.5852,
-          "mape": 5.3881
+          "rmse": 6.1969,
+          "mae": 5.0428,
+          "r2": -0.3855,
+          "mape": 1.9696
         },
         "Ridge": {
-          "rmse": 6.7487,
-          "mae": 5.6933,
-          "r2": 0.9323,
-          "mape": 2.3652
+          "rmse": 4.2452,
+          "mae": 3.3393,
+          "r2": 0.3498,
+          "mape": 1.299
         },
         "SVR": {
-          "rmse": 28.2051,
-          "mae": 23.433,
-          "r2": -0.1821,
-          "mape": 9.2452
+          "rmse": 9.3072,
+          "mae": 8.2646,
+          "r2": -2.1254,
+          "mape": 3.2424
         }
       },
       "best_model_metrics": {
-        "rmse": 6.7487,
-        "mae": 5.6933,
-        "r2": 0.9323,
-        "mape": 2.3652
+        "rmse": 4.2452,
+        "mae": 3.3393,
+        "r2": 0.3498,
+        "mape": 1.299
       },
       "train_rows": 160,
-      "test_rows": 41,
+      "test_rows": 40,
       "feature_columns": [
         "ema_20",
         "sma_50",
@@ -342,55 +899,270 @@
         "Close",
         "Volume"
       ],
-      "trained_at": "2026-05-14T20:14:34.982763+00:00"
+      "trained_at": "2026-10-15T07:44:17.582611+00:00"
     },
     "ARKK": {
       "ticker": "ARKK",
       "best_model": "Ridge",
-      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2\\models\\ARKK_best_model.pkl",
-      "current_price": 78.05,
-      "predicted_next_close": 77.6917,
+      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2_updated\\models\\ARKK_best_model.pkl",
+      "as_of_date": "2026-10-13",
+      "predicted_for_date": "2026-10-14",
+      "actual_next_close": 84.48,
+      "price_history": [
+        {
+          "date": "2026-09-01",
+          "open": 84.04,
+          "high": 84.42,
+          "low": 82.77,
+          "close": 83.08
+        },
+        {
+          "date": "2026-09-02",
+          "open": 82.99,
+          "high": 84.02,
+          "low": 82.58,
+          "close": 83.39
+        },
+        {
+          "date": "2026-09-03",
+          "open": 84.39,
+          "high": 87.3,
+          "low": 84.39,
+          "close": 87.14
+        },
+        {
+          "date": "2026-09-04",
+          "open": 85.9,
+          "high": 86.535,
+          "low": 85.8,
+          "close": 86.22
+        },
+        {
+          "date": "2026-09-08",
+          "open": 86.15,
+          "high": 86.78,
+          "low": 85.21,
+          "close": 86.08
+        },
+        {
+          "date": "2026-09-09",
+          "open": 86.1,
+          "high": 86.37,
+          "low": 84.47,
+          "close": 84.56
+        },
+        {
+          "date": "2026-09-10",
+          "open": 82.77,
+          "high": 84.28,
+          "low": 82.42,
+          "close": 83.06
+        },
+        {
+          "date": "2026-09-11",
+          "open": 83.63,
+          "high": 84.79,
+          "low": 83.5,
+          "close": 83.58
+        },
+        {
+          "date": "2026-09-14",
+          "open": 82.59,
+          "high": 85.19,
+          "low": 82.49,
+          "close": 84.72
+        },
+        {
+          "date": "2026-09-15",
+          "open": 83.9,
+          "high": 84.32,
+          "low": 82.91,
+          "close": 83.49
+        },
+        {
+          "date": "2026-09-16",
+          "open": 83.88,
+          "high": 84.57,
+          "low": 82.04,
+          "close": 83.18
+        },
+        {
+          "date": "2026-09-17",
+          "open": 85.04,
+          "high": 87.165,
+          "low": 85.04,
+          "close": 86.92
+        },
+        {
+          "date": "2026-09-18",
+          "open": 87.55,
+          "high": 88.33,
+          "low": 87.009,
+          "close": 88.23
+        },
+        {
+          "date": "2026-09-21",
+          "open": 90.05,
+          "high": 90.985,
+          "low": 89.86,
+          "close": 90.72
+        },
+        {
+          "date": "2026-09-22",
+          "open": 91.0,
+          "high": 91.94,
+          "low": 90.48,
+          "close": 91.61
+        },
+        {
+          "date": "2026-09-23",
+          "open": 91.38,
+          "high": 92.03,
+          "low": 89.67,
+          "close": 89.77
+        },
+        {
+          "date": "2026-09-24",
+          "open": 88.94,
+          "high": 91.86,
+          "low": 88.76,
+          "close": 91.7
+        },
+        {
+          "date": "2026-09-25",
+          "open": 92.02,
+          "high": 92.2,
+          "low": 89.72,
+          "close": 90.77
+        },
+        {
+          "date": "2026-09-28",
+          "open": 89.84,
+          "high": 90.44,
+          "low": 88.66,
+          "close": 89.25
+        },
+        {
+          "date": "2026-09-29",
+          "open": 90.0,
+          "high": 90.488,
+          "low": 88.9,
+          "close": 89.45
+        },
+        {
+          "date": "2026-09-30",
+          "open": 90.08,
+          "high": 90.33,
+          "low": 88.97,
+          "close": 89.1
+        },
+        {
+          "date": "2026-10-01",
+          "open": 89.34,
+          "high": 89.915,
+          "low": 88.46,
+          "close": 88.58
+        },
+        {
+          "date": "2026-10-02",
+          "open": 90.18,
+          "high": 91.45,
+          "low": 89.24,
+          "close": 89.83
+        },
+        {
+          "date": "2026-10-05",
+          "open": 90.13,
+          "high": 93.02,
+          "low": 89.83,
+          "close": 92.78
+        },
+        {
+          "date": "2026-10-06",
+          "open": 93.96,
+          "high": 94.82,
+          "low": 90.27,
+          "close": 90.49
+        },
+        {
+          "date": "2026-10-07",
+          "open": 88.6,
+          "high": 88.96,
+          "low": 87.775,
+          "close": 88.3
+        },
+        {
+          "date": "2026-10-08",
+          "open": 88.15,
+          "high": 88.41,
+          "low": 86.595,
+          "close": 87.6
+        },
+        {
+          "date": "2026-10-09",
+          "open": 88.57,
+          "high": 90.035,
+          "low": 88.275,
+          "close": 89.62
+        },
+        {
+          "date": "2026-10-12",
+          "open": 89.385,
+          "high": 89.488,
+          "low": 87.585,
+          "close": 88.02
+        },
+        {
+          "date": "2026-10-13",
+          "open": 87.03,
+          "high": 87.61,
+          "low": 86.5,
+          "close": 87.17
+        }
+      ],
+      "current_price": 87.17,
+      "predicted_next_close": 85.2953,
       "predicted_direction": "down",
       "all_model_metrics": {
         "XGBoost": {
-          "rmse": 3.0808,
-          "mae": 2.5841,
-          "r2": 0.5607,
-          "mape": 3.6254
+          "rmse": 8.7575,
+          "mae": 8.1939,
+          "r2": -7.3927,
+          "mape": 9.3228
         },
         "RandomForest": {
-          "rmse": 2.8434,
-          "mae": 2.3583,
-          "r2": 0.6258,
-          "mape": 3.2931
+          "rmse": 6.5789,
+          "mae": 5.9864,
+          "r2": -3.7364,
+          "mape": 6.795
         },
         "GradientBoosting": {
-          "rmse": 2.7991,
-          "mae": 2.3323,
-          "r2": 0.6374,
-          "mape": 3.2426
+          "rmse": 7.5788,
+          "mae": 7.004,
+          "r2": -5.2856,
+          "mape": 7.9603
         },
         "Ridge": {
-          "rmse": 1.889,
-          "mae": 1.5524,
-          "r2": 0.8349,
-          "mape": 2.1341
+          "rmse": 2.1596,
+          "mae": 1.702,
+          "r2": 0.4896,
+          "mape": 1.948
         },
         "SVR": {
-          "rmse": 3.196,
-          "mae": 2.5454,
-          "r2": 0.5273,
-          "mape": 3.55
+          "rmse": 9.389,
+          "mae": 8.6693,
+          "r2": -8.6467,
+          "mape": 9.8541
         }
       },
       "best_model_metrics": {
-        "rmse": 1.889,
-        "mae": 1.5524,
-        "r2": 0.8349,
-        "mape": 2.1341
+        "rmse": 2.1596,
+        "mae": 1.702,
+        "r2": 0.4896,
+        "mape": 1.948
       },
       "train_rows": 160,
-      "test_rows": 41,
+      "test_rows": 40,
       "feature_columns": [
         "ema_20",
         "sma_50",
@@ -418,435 +1190,270 @@
         "Close",
         "Volume"
       ],
-      "trained_at": "2026-05-14T20:14:36.730106+00:00"
-    },
-    "BB": {
-      "ticker": "BB",
-      "best_model": "Ridge",
-      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2\\models\\BB_best_model.pkl",
-      "current_price": 6.1,
-      "predicted_next_close": 5.991,
-      "predicted_direction": "down",
-      "all_model_metrics": {
-        "XGBoost": {
-          "rmse": 0.8151,
-          "mae": 0.5808,
-          "r2": 0.4786,
-          "mape": 10.7182
-        },
-        "RandomForest": {
-          "rmse": 0.7003,
-          "mae": 0.5015,
-          "r2": 0.6151,
-          "mape": 9.3731
-        },
-        "GradientBoosting": {
-          "rmse": 0.7251,
-          "mae": 0.5213,
-          "r2": 0.5874,
-          "mape": 9.6822
-        },
-        "Ridge": {
-          "rmse": 0.2182,
-          "mae": 0.1554,
-          "r2": 0.9626,
-          "mape": 3.179
-        },
-        "SVR": {
-          "rmse": 1.0268,
-          "mae": 0.7764,
-          "r2": 0.1726,
-          "mape": 14.6351
-        }
-      },
-      "best_model_metrics": {
-        "rmse": 0.2182,
-        "mae": 0.1554,
-        "r2": 0.9626,
-        "mape": 3.179
-      },
-      "train_rows": 160,
-      "test_rows": 41,
-      "feature_columns": [
-        "ema_20",
-        "sma_50",
-        "rsi",
-        "macd",
-        "macd_signal",
-        "macd_hist",
-        "bb_upper",
-        "bb_lower",
-        "bb_width",
-        "bb_position",
-        "close_to_ema20",
-        "close_to_sma50",
-        "high_low_range",
-        "return_1d",
-        "return_5d",
-        "return_10d",
-        "volume_ratio",
-        "lag_1",
-        "lag_2",
-        "lag_5",
-        "Open",
-        "High",
-        "Low",
-        "Close",
-        "Volume"
-      ],
-      "trained_at": "2026-05-14T20:14:38.370592+00:00"
-    },
-    "BBBY": {
-      "ticker": "BBBY",
-      "best_model": "XGBoost",
-      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2\\models\\BBBY_best_model.pkl",
-      "current_price": 4.73,
-      "predicted_next_close": 4.9313,
-      "predicted_direction": "up",
-      "all_model_metrics": {
-        "XGBoost": {
-          "rmse": 0.2912,
-          "mae": 0.2311,
-          "r2": 0.5644,
-          "mape": 4.5848
-        },
-        "RandomForest": {
-          "rmse": 0.3071,
-          "mae": 0.2485,
-          "r2": 0.5157,
-          "mape": 4.9242
-        },
-        "GradientBoosting": {
-          "rmse": 0.2982,
-          "mae": 0.2318,
-          "r2": 0.5434,
-          "mape": 4.5727
-        },
-        "Ridge": {
-          "rmse": 0.5037,
-          "mae": 0.3619,
-          "r2": -0.303,
-          "mape": 7.3304
-        },
-        "SVR": {
-          "rmse": 0.9859,
-          "mae": 0.6365,
-          "r2": -3.9932,
-          "mape": 12.7337
-        }
-      },
-      "best_model_metrics": {
-        "rmse": 0.2912,
-        "mae": 0.2311,
-        "r2": 0.5644,
-        "mape": 4.5848
-      },
-      "train_rows": 160,
-      "test_rows": 41,
-      "feature_columns": [
-        "ema_20",
-        "sma_50",
-        "rsi",
-        "macd",
-        "macd_signal",
-        "macd_hist",
-        "bb_upper",
-        "bb_lower",
-        "bb_width",
-        "bb_position",
-        "close_to_ema20",
-        "close_to_sma50",
-        "high_low_range",
-        "return_1d",
-        "return_5d",
-        "return_10d",
-        "volume_ratio",
-        "lag_1",
-        "lag_2",
-        "lag_5",
-        "Open",
-        "High",
-        "Low",
-        "Close",
-        "Volume"
-      ],
-      "trained_at": "2026-05-14T20:14:40.032766+00:00"
-    },
-    "COIN": {
-      "ticker": "COIN",
-      "best_model": "Ridge",
-      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2\\models\\COIN_best_model.pkl",
-      "current_price": 201.8,
-      "predicted_next_close": 200.2222,
-      "predicted_direction": "down",
-      "all_model_metrics": {
-        "XGBoost": {
-          "rmse": 15.3808,
-          "mae": 12.5023,
-          "r2": -0.0923,
-          "mape": 6.9541
-        },
-        "RandomForest": {
-          "rmse": 13.5246,
-          "mae": 10.5467,
-          "r2": 0.1554,
-          "mape": 5.8863
-        },
-        "GradientBoosting": {
-          "rmse": 14.8947,
-          "mae": 11.6848,
-          "r2": -0.0243,
-          "mape": 6.5216
-        },
-        "Ridge": {
-          "rmse": 9.5817,
-          "mae": 7.7739,
-          "r2": 0.5761,
-          "mape": 4.0786
-        },
-        "SVR": {
-          "rmse": 26.5169,
-          "mae": 24.0658,
-          "r2": -2.2466,
-          "mape": 13.0417
-        }
-      },
-      "best_model_metrics": {
-        "rmse": 9.5817,
-        "mae": 7.7739,
-        "r2": 0.5761,
-        "mape": 4.0786
-      },
-      "train_rows": 160,
-      "test_rows": 41,
-      "feature_columns": [
-        "ema_20",
-        "sma_50",
-        "rsi",
-        "macd",
-        "macd_signal",
-        "macd_hist",
-        "bb_upper",
-        "bb_lower",
-        "bb_width",
-        "bb_position",
-        "close_to_ema20",
-        "close_to_sma50",
-        "high_low_range",
-        "return_1d",
-        "return_5d",
-        "return_10d",
-        "volume_ratio",
-        "lag_1",
-        "lag_2",
-        "lag_5",
-        "Open",
-        "High",
-        "Low",
-        "Close",
-        "Volume"
-      ],
-      "trained_at": "2026-05-14T20:14:42.788248+00:00"
-    },
-    "DIS": {
-      "ticker": "DIS",
-      "best_model": "Ridge",
-      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2\\models\\DIS_best_model.pkl",
-      "current_price": 104.9,
-      "predicted_next_close": 105.7608,
-      "predicted_direction": "up",
-      "all_model_metrics": {
-        "XGBoost": {
-          "rmse": 3.228,
-          "mae": 2.5367,
-          "r2": 0.3826,
-          "mape": 2.5609
-        },
-        "RandomForest": {
-          "rmse": 2.8972,
-          "mae": 2.3031,
-          "r2": 0.5026,
-          "mape": 2.317
-        },
-        "GradientBoosting": {
-          "rmse": 3.2282,
-          "mae": 2.6754,
-          "r2": 0.3825,
-          "mape": 2.6866
-        },
-        "Ridge": {
-          "rmse": 2.2182,
-          "mae": 1.7025,
-          "r2": 0.7084,
-          "mape": 1.6711
-        },
-        "SVR": {
-          "rmse": 8.0209,
-          "mae": 7.3734,
-          "r2": -2.8122,
-          "mape": 7.3516
-        }
-      },
-      "best_model_metrics": {
-        "rmse": 2.2182,
-        "mae": 1.7025,
-        "r2": 0.7084,
-        "mape": 1.6711
-      },
-      "train_rows": 160,
-      "test_rows": 41,
-      "feature_columns": [
-        "ema_20",
-        "sma_50",
-        "rsi",
-        "macd",
-        "macd_signal",
-        "macd_hist",
-        "bb_upper",
-        "bb_lower",
-        "bb_width",
-        "bb_position",
-        "close_to_ema20",
-        "close_to_sma50",
-        "high_low_range",
-        "return_1d",
-        "return_5d",
-        "return_10d",
-        "volume_ratio",
-        "lag_1",
-        "lag_2",
-        "lag_5",
-        "Open",
-        "High",
-        "Low",
-        "Close",
-        "Volume"
-      ],
-      "trained_at": "2026-05-14T20:14:45.310941+00:00"
-    },
-    "GME": {
-      "ticker": "GME",
-      "best_model": "Ridge",
-      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2\\models\\GME_best_model.pkl",
-      "current_price": 22.08,
-      "predicted_next_close": 22.1169,
-      "predicted_direction": "up",
-      "all_model_metrics": {
-        "XGBoost": {
-          "rmse": 0.7283,
-          "mae": 0.5346,
-          "r2": 0.589,
-          "mape": 2.228
-        },
-        "RandomForest": {
-          "rmse": 0.7066,
-          "mae": 0.5422,
-          "r2": 0.6132,
-          "mape": 2.2587
-        },
-        "GradientBoosting": {
-          "rmse": 0.7563,
-          "mae": 0.5682,
-          "r2": 0.5569,
-          "mape": 2.3736
-        },
-        "Ridge": {
-          "rmse": 0.699,
-          "mae": 0.5418,
-          "r2": 0.6215,
-          "mape": 2.2538
-        },
-        "SVR": {
-          "rmse": 0.8654,
-          "mae": 0.7133,
-          "r2": 0.4198,
-          "mape": 2.9751
-        }
-      },
-      "best_model_metrics": {
-        "rmse": 0.699,
-        "mae": 0.5418,
-        "r2": 0.6215,
-        "mape": 2.2538
-      },
-      "train_rows": 160,
-      "test_rows": 41,
-      "feature_columns": [
-        "ema_20",
-        "sma_50",
-        "rsi",
-        "macd",
-        "macd_signal",
-        "macd_hist",
-        "bb_upper",
-        "bb_lower",
-        "bb_width",
-        "bb_position",
-        "close_to_ema20",
-        "close_to_sma50",
-        "high_low_range",
-        "return_1d",
-        "return_5d",
-        "return_10d",
-        "volume_ratio",
-        "lag_1",
-        "lag_2",
-        "lag_5",
-        "Open",
-        "High",
-        "Low",
-        "Close",
-        "Volume"
-      ],
-      "trained_at": "2026-05-14T20:14:47.034930+00:00"
+      "trained_at": "2026-10-15T07:44:19.981879+00:00"
     },
     "GOOGL": {
       "ticker": "GOOGL",
       "best_model": "Ridge",
-      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2\\models\\GOOGL_best_model.pkl",
-      "current_price": 402.62,
-      "predicted_next_close": 395.2542,
+      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2_updated\\models\\GOOGL_best_model.pkl",
+      "as_of_date": "2026-10-13",
+      "predicted_for_date": "2026-10-14",
+      "actual_next_close": 347.64,
+      "price_history": [
+        {
+          "date": "2026-09-01",
+          "open": 335.7842,
+          "high": 336.9834,
+          "low": 332.836,
+          "close": 334.8048
+        },
+        {
+          "date": "2026-09-02",
+          "open": 333.8454,
+          "high": 339.7816,
+          "low": 332.6062,
+          "close": 336.9034
+        },
+        {
+          "date": "2026-09-03",
+          "open": 340.3412,
+          "high": 344.4586,
+          "low": 339.8416,
+          "close": 342.26
+        },
+        {
+          "date": "2026-09-04",
+          "open": 342.47,
+          "high": 343.53,
+          "low": 337.09,
+          "close": 338.46
+        },
+        {
+          "date": "2026-09-08",
+          "open": 335.42,
+          "high": 339.68,
+          "low": 333.22,
+          "close": 338.36
+        },
+        {
+          "date": "2026-09-09",
+          "open": 331.65,
+          "high": 331.85,
+          "low": 327.9,
+          "close": 330.65
+        },
+        {
+          "date": "2026-09-10",
+          "open": 328.23,
+          "high": 333.23,
+          "low": 327.74,
+          "close": 332.6
+        },
+        {
+          "date": "2026-09-11",
+          "open": 335.03,
+          "high": 342.98,
+          "low": 335.03,
+          "close": 338.5
+        },
+        {
+          "date": "2026-09-14",
+          "open": 343.12,
+          "high": 349.91,
+          "low": 342.14,
+          "close": 349.39
+        },
+        {
+          "date": "2026-09-15",
+          "open": 346.8,
+          "high": 348.07,
+          "low": 342.7,
+          "close": 344.98
+        },
+        {
+          "date": "2026-09-16",
+          "open": 347.08,
+          "high": 348.4,
+          "low": 340.64,
+          "close": 342.87
+        },
+        {
+          "date": "2026-09-17",
+          "open": 348.68,
+          "high": 349.5,
+          "low": 343.89,
+          "close": 347.33
+        },
+        {
+          "date": "2026-09-18",
+          "open": 357.31,
+          "high": 359.44,
+          "low": 348.45,
+          "close": 349.54
+        },
+        {
+          "date": "2026-09-21",
+          "open": 350.64,
+          "high": 357.61,
+          "low": 349.1,
+          "close": 354.97
+        },
+        {
+          "date": "2026-09-22",
+          "open": 357.65,
+          "high": 364.17,
+          "low": 350.22,
+          "close": 351.16
+        },
+        {
+          "date": "2026-09-23",
+          "open": 349.86,
+          "high": 350.0,
+          "low": 337.45,
+          "close": 337.83
+        },
+        {
+          "date": "2026-09-24",
+          "open": 336.22,
+          "high": 343.09,
+          "low": 336.02,
+          "close": 342.36
+        },
+        {
+          "date": "2026-09-25",
+          "open": 342.35,
+          "high": 347.03,
+          "low": 341.11,
+          "close": 343.92
+        },
+        {
+          "date": "2026-09-28",
+          "open": 340.7,
+          "high": 343.59,
+          "low": 339.56,
+          "close": 342.75
+        },
+        {
+          "date": "2026-09-29",
+          "open": 341.95,
+          "high": 342.84,
+          "low": 338.02,
+          "close": 340.92
+        },
+        {
+          "date": "2026-09-30",
+          "open": 344.15,
+          "high": 352.6,
+          "low": 340.99,
+          "close": 344.08
+        },
+        {
+          "date": "2026-10-01",
+          "open": 350.79,
+          "high": 353.22,
+          "low": 335.51,
+          "close": 338.24
+        },
+        {
+          "date": "2026-10-02",
+          "open": 341.32,
+          "high": 345.77,
+          "low": 341.16,
+          "close": 343.5
+        },
+        {
+          "date": "2026-10-05",
+          "open": 342.59,
+          "high": 348.09,
+          "low": 342.4,
+          "close": 346.47
+        },
+        {
+          "date": "2026-10-06",
+          "open": 347.37,
+          "high": 349.09,
+          "low": 344.68,
+          "close": 347.68
+        },
+        {
+          "date": "2026-10-07",
+          "open": 346.72,
+          "high": 350.8,
+          "low": 343.07,
+          "close": 350.5
+        },
+        {
+          "date": "2026-10-08",
+          "open": 353.14,
+          "high": 356.83,
+          "low": 346.52,
+          "close": 348.29
+        },
+        {
+          "date": "2026-10-09",
+          "open": 351.4,
+          "high": 354.7,
+          "low": 350.31,
+          "close": 351.66
+        },
+        {
+          "date": "2026-10-12",
+          "open": 351.86,
+          "high": 356.5,
+          "low": 350.5,
+          "close": 352.72
+        },
+        {
+          "date": "2026-10-13",
+          "open": 356.23,
+          "high": 358.58,
+          "low": 351.6,
+          "close": 353.78
+        }
+      ],
+      "current_price": 353.78,
+      "predicted_next_close": 351.6221,
       "predicted_direction": "down",
       "all_model_metrics": {
         "XGBoost": {
-          "rmse": 34.6194,
-          "mae": 23.6869,
-          "r2": 0.2358,
-          "mape": 6.4914
+          "rmse": 6.8429,
+          "mae": 5.7534,
+          "r2": -0.4857,
+          "mape": 1.6725
         },
         "RandomForest": {
-          "rmse": 30.5739,
-          "mae": 20.4387,
-          "r2": 0.404,
-          "mape": 5.5701
+          "rmse": 5.8905,
+          "mae": 4.7417,
+          "r2": -0.1009,
+          "mape": 1.3801
         },
         "GradientBoosting": {
-          "rmse": 31.6287,
-          "mae": 21.4298,
-          "r2": 0.3621,
-          "mape": 5.8581
+          "rmse": 6.6896,
+          "mae": 5.4803,
+          "r2": -0.4198,
+          "mape": 1.5906
         },
         "Ridge": {
-          "rmse": 8.9286,
-          "mae": 6.4799,
-          "r2": 0.9492,
-          "mape": 1.8996
+          "rmse": 5.5942,
+          "mae": 4.7742,
+          "r2": 0.0071,
+          "mape": 1.389
         },
         "SVR": {
-          "rmse": 55.3897,
-          "mae": 40.5269,
-          "r2": -0.9563,
-          "mape": 11.0407
+          "rmse": 8.1153,
+          "mae": 6.4189,
+          "r2": -1.0895,
+          "mape": 1.8603
         }
       },
       "best_model_metrics": {
-        "rmse": 8.9286,
-        "mae": 6.4799,
-        "r2": 0.9492,
-        "mape": 1.8996
+        "rmse": 5.5942,
+        "mae": 4.7742,
+        "r2": 0.0071,
+        "mape": 1.389
       },
       "train_rows": 160,
-      "test_rows": 41,
+      "test_rows": 40,
       "feature_columns": [
         "ema_20",
         "sma_50",
@@ -874,131 +1481,270 @@
         "Close",
         "Volume"
       ],
-      "trained_at": "2026-05-14T20:14:48.872506+00:00"
-    },
-    "HOOD": {
-      "ticker": "HOOD",
-      "best_model": "Ridge",
-      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2\\models\\HOOD_best_model.pkl",
-      "current_price": 76.75,
-      "predicted_next_close": 77.4509,
-      "predicted_direction": "up",
-      "all_model_metrics": {
-        "XGBoost": {
-          "rmse": 13.1643,
-          "mae": 12.0776,
-          "r2": -2.5963,
-          "mape": 16.4991
-        },
-        "RandomForest": {
-          "rmse": 9.4573,
-          "mae": 8.1693,
-          "r2": -0.8561,
-          "mape": 11.2986
-        },
-        "GradientBoosting": {
-          "rmse": 10.889,
-          "mae": 9.5554,
-          "r2": -1.4606,
-          "mape": 13.1811
-        },
-        "Ridge": {
-          "rmse": 3.8089,
-          "mae": 3.0349,
-          "r2": 0.6989,
-          "mape": 3.9644
-        },
-        "SVR": {
-          "rmse": 10.2364,
-          "mae": 9.2842,
-          "r2": -1.1745,
-          "mape": 12.2948
-        }
-      },
-      "best_model_metrics": {
-        "rmse": 3.8089,
-        "mae": 3.0349,
-        "r2": 0.6989,
-        "mape": 3.9644
-      },
-      "train_rows": 160,
-      "test_rows": 41,
-      "feature_columns": [
-        "ema_20",
-        "sma_50",
-        "rsi",
-        "macd",
-        "macd_signal",
-        "macd_hist",
-        "bb_upper",
-        "bb_lower",
-        "bb_width",
-        "bb_position",
-        "close_to_ema20",
-        "close_to_sma50",
-        "high_low_range",
-        "return_1d",
-        "return_5d",
-        "return_10d",
-        "volume_ratio",
-        "lag_1",
-        "lag_2",
-        "lag_5",
-        "Open",
-        "High",
-        "Low",
-        "Close",
-        "Volume"
-      ],
-      "trained_at": "2026-05-14T20:14:50.761519+00:00"
+      "trained_at": "2026-10-15T07:44:23.924513+00:00"
     },
     "INTC": {
       "ticker": "INTC",
       "best_model": "Ridge",
-      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2\\models\\INTC_best_model.pkl",
-      "current_price": 120.29,
-      "predicted_next_close": 117.3281,
+      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2_updated\\models\\INTC_best_model.pkl",
+      "as_of_date": "2026-10-13",
+      "predicted_for_date": "2026-10-14",
+      "actual_next_close": 98.12,
+      "price_history": [
+        {
+          "date": "2026-09-01",
+          "open": 86.84,
+          "high": 89.41,
+          "low": 85.72,
+          "close": 88.97
+        },
+        {
+          "date": "2026-09-02",
+          "open": 88.85,
+          "high": 90.43,
+          "low": 87.5,
+          "close": 90.05
+        },
+        {
+          "date": "2026-09-03",
+          "open": 89.35,
+          "high": 92.37,
+          "low": 87.73,
+          "close": 91.67
+        },
+        {
+          "date": "2026-09-04",
+          "open": 92.45,
+          "high": 95.94,
+          "low": 91.87,
+          "close": 95.8
+        },
+        {
+          "date": "2026-09-08",
+          "open": 100.8,
+          "high": 106.09,
+          "low": 100.35,
+          "close": 104.47
+        },
+        {
+          "date": "2026-09-09",
+          "open": 102.7,
+          "high": 106.69,
+          "low": 102.7,
+          "close": 106.24
+        },
+        {
+          "date": "2026-09-10",
+          "open": 102.45,
+          "high": 103.23,
+          "low": 99.34,
+          "close": 100.32
+        },
+        {
+          "date": "2026-09-11",
+          "open": 102.47,
+          "high": 104.9,
+          "low": 101.07,
+          "close": 102.94
+        },
+        {
+          "date": "2026-09-14",
+          "open": 95.82,
+          "high": 98.86,
+          "low": 94.52,
+          "close": 97.19
+        },
+        {
+          "date": "2026-09-15",
+          "open": 98.83,
+          "high": 100.48,
+          "low": 96.52,
+          "close": 97.14
+        },
+        {
+          "date": "2026-09-16",
+          "open": 101.37,
+          "high": 104.42,
+          "low": 99.29,
+          "close": 101.05
+        },
+        {
+          "date": "2026-09-17",
+          "open": 104.7,
+          "high": 111.37,
+          "low": 104.7,
+          "close": 108.8
+        },
+        {
+          "date": "2026-09-18",
+          "open": 109.8,
+          "high": 110.49,
+          "low": 106.4,
+          "close": 108.6
+        },
+        {
+          "date": "2026-09-21",
+          "open": 116.53,
+          "high": 124.73,
+          "low": 114.93,
+          "close": 121.78
+        },
+        {
+          "date": "2026-09-22",
+          "open": 120.15,
+          "high": 124.09,
+          "low": 120.08,
+          "close": 123.86
+        },
+        {
+          "date": "2026-09-23",
+          "open": 123.87,
+          "high": 124.25,
+          "low": 119.44,
+          "close": 122.6
+        },
+        {
+          "date": "2026-09-24",
+          "open": 120.61,
+          "high": 127.44,
+          "low": 119.55,
+          "close": 127.39
+        },
+        {
+          "date": "2026-09-25",
+          "open": 126.83,
+          "high": 126.93,
+          "low": 122.84,
+          "close": 123.0
+        },
+        {
+          "date": "2026-09-28",
+          "open": 120.68,
+          "high": 121.71,
+          "low": 114.71,
+          "close": 116.03
+        },
+        {
+          "date": "2026-09-29",
+          "open": 116.7,
+          "high": 118.75,
+          "low": 113.97,
+          "close": 115.93
+        },
+        {
+          "date": "2026-09-30",
+          "open": 116.22,
+          "high": 120.55,
+          "low": 116.0,
+          "close": 120.23
+        },
+        {
+          "date": "2026-10-01",
+          "open": 118.73,
+          "high": 122.15,
+          "low": 117.35,
+          "close": 120.0
+        },
+        {
+          "date": "2026-10-02",
+          "open": 124.01,
+          "high": 126.0,
+          "low": 118.96,
+          "close": 119.33
+        },
+        {
+          "date": "2026-10-05",
+          "open": 115.34,
+          "high": 118.06,
+          "low": 115.31,
+          "close": 116.19
+        },
+        {
+          "date": "2026-10-06",
+          "open": 117.06,
+          "high": 118.2,
+          "low": 112.0,
+          "close": 112.5
+        },
+        {
+          "date": "2026-10-07",
+          "open": 111.67,
+          "high": 115.3,
+          "low": 111.14,
+          "close": 113.12
+        },
+        {
+          "date": "2026-10-08",
+          "open": 110.38,
+          "high": 111.6,
+          "low": 105.24,
+          "close": 107.08
+        },
+        {
+          "date": "2026-10-09",
+          "open": 108.33,
+          "high": 108.38,
+          "low": 104.0,
+          "close": 104.7
+        },
+        {
+          "date": "2026-10-12",
+          "open": 102.52,
+          "high": 103.19,
+          "low": 100.71,
+          "close": 101.35
+        },
+        {
+          "date": "2026-10-13",
+          "open": 99.59,
+          "high": 102.88,
+          "low": 98.23,
+          "close": 102.81
+        }
+      ],
+      "current_price": 102.81,
+      "predicted_next_close": 102.3336,
       "predicted_direction": "down",
       "all_model_metrics": {
         "XGBoost": {
-          "rmse": 38.0817,
-          "mae": 27.6918,
-          "r2": -0.9742,
-          "mape": 30.0646
+          "rmse": 5.8221,
+          "mae": 4.9627,
+          "r2": 0.7745,
+          "mape": 5.0225
         },
         "RandomForest": {
-          "rmse": 35.3881,
-          "mae": 25.2913,
-          "r2": -0.7048,
-          "mape": 27.1848
+          "rmse": 4.7592,
+          "mae": 4.034,
+          "r2": 0.8493,
+          "mape": 4.0051
         },
         "GradientBoosting": {
-          "rmse": 36.7734,
-          "mae": 26.5971,
-          "r2": -0.8409,
-          "mape": 28.8009
+          "rmse": 5.5329,
+          "mae": 4.6761,
+          "r2": 0.7963,
+          "mape": 4.6574
         },
         "Ridge": {
-          "rmse": 7.1457,
-          "mae": 4.928,
-          "r2": 0.9305,
-          "mape": 6.0219
+          "rmse": 4.5709,
+          "mae": 3.5083,
+          "r2": 0.861,
+          "mape": 3.3221
         },
         "SVR": {
-          "rmse": 46.1477,
-          "mae": 34.6108,
-          "r2": -1.8991,
-          "mape": 38.278
+          "rmse": 9.3489,
+          "mae": 8.4527,
+          "r2": 0.4184,
+          "mape": 8.4612
         }
       },
       "best_model_metrics": {
-        "rmse": 7.1457,
-        "mae": 4.928,
-        "r2": 0.9305,
-        "mape": 6.0219
+        "rmse": 4.5709,
+        "mae": 3.5083,
+        "r2": 0.861,
+        "mape": 3.3221
       },
       "train_rows": 160,
-      "test_rows": 41,
+      "test_rows": 40,
       "feature_columns": [
         "ema_20",
         "sma_50",
@@ -1026,55 +1772,270 @@
         "Close",
         "Volume"
       ],
-      "trained_at": "2026-05-14T20:14:52.468200+00:00"
+      "trained_at": "2026-10-15T07:44:26.561304+00:00"
     },
     "JNJ": {
       "ticker": "JNJ",
       "best_model": "Ridge",
-      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2\\models\\JNJ_best_model.pkl",
-      "current_price": 230.42,
-      "predicted_next_close": 233.4474,
+      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2_updated\\models\\JNJ_best_model.pkl",
+      "as_of_date": "2026-10-13",
+      "predicted_for_date": "2026-10-14",
+      "actual_next_close": 253.91,
+      "price_history": [
+        {
+          "date": "2026-09-01",
+          "open": 270.83,
+          "high": 271.91,
+          "low": 267.02,
+          "close": 271.19
+        },
+        {
+          "date": "2026-09-02",
+          "open": 274.74,
+          "high": 281.07,
+          "low": 273.53,
+          "close": 275.21
+        },
+        {
+          "date": "2026-09-03",
+          "open": 277.32,
+          "high": 278.89,
+          "low": 273.16,
+          "close": 278.43
+        },
+        {
+          "date": "2026-09-04",
+          "open": 275.13,
+          "high": 277.8,
+          "low": 274.75,
+          "close": 275.23
+        },
+        {
+          "date": "2026-09-08",
+          "open": 271.28,
+          "high": 271.99,
+          "low": 266.88,
+          "close": 269.12
+        },
+        {
+          "date": "2026-09-09",
+          "open": 268.51,
+          "high": 270.1,
+          "low": 266.73,
+          "close": 267.08
+        },
+        {
+          "date": "2026-09-10",
+          "open": 270.21,
+          "high": 271.27,
+          "low": 265.72,
+          "close": 266.35
+        },
+        {
+          "date": "2026-09-11",
+          "open": 268.03,
+          "high": 270.4,
+          "low": 265.25,
+          "close": 265.58
+        },
+        {
+          "date": "2026-09-14",
+          "open": 271.0,
+          "high": 271.55,
+          "low": 266.19,
+          "close": 266.32
+        },
+        {
+          "date": "2026-09-15",
+          "open": 265.81,
+          "high": 267.2,
+          "low": 260.68,
+          "close": 267.2
+        },
+        {
+          "date": "2026-09-16",
+          "open": 266.81,
+          "high": 268.65,
+          "low": 266.3,
+          "close": 267.28
+        },
+        {
+          "date": "2026-09-17",
+          "open": 268.0,
+          "high": 270.87,
+          "low": 267.11,
+          "close": 270.22
+        },
+        {
+          "date": "2026-09-18",
+          "open": 269.45,
+          "high": 272.11,
+          "low": 267.2,
+          "close": 269.99
+        },
+        {
+          "date": "2026-09-21",
+          "open": 271.74,
+          "high": 273.73,
+          "low": 268.5,
+          "close": 269.47
+        },
+        {
+          "date": "2026-09-22",
+          "open": 267.51,
+          "high": 270.1,
+          "low": 265.04,
+          "close": 269.19
+        },
+        {
+          "date": "2026-09-23",
+          "open": 269.47,
+          "high": 272.14,
+          "low": 266.5,
+          "close": 269.17
+        },
+        {
+          "date": "2026-09-24",
+          "open": 269.52,
+          "high": 275.23,
+          "low": 269.01,
+          "close": 270.68
+        },
+        {
+          "date": "2026-09-25",
+          "open": 271.7,
+          "high": 272.25,
+          "low": 269.26,
+          "close": 271.22
+        },
+        {
+          "date": "2026-09-28",
+          "open": 270.17,
+          "high": 273.78,
+          "low": 269.27,
+          "close": 271.95
+        },
+        {
+          "date": "2026-09-29",
+          "open": 269.11,
+          "high": 271.89,
+          "low": 265.59,
+          "close": 267.57
+        },
+        {
+          "date": "2026-09-30",
+          "open": 267.91,
+          "high": 268.48,
+          "low": 264.51,
+          "close": 264.74
+        },
+        {
+          "date": "2026-10-01",
+          "open": 263.68,
+          "high": 263.98,
+          "low": 258.33,
+          "close": 258.66
+        },
+        {
+          "date": "2026-10-02",
+          "open": 259.38,
+          "high": 259.38,
+          "low": 255.12,
+          "close": 256.03
+        },
+        {
+          "date": "2026-10-05",
+          "open": 256.0,
+          "high": 256.24,
+          "low": 252.51,
+          "close": 252.93
+        },
+        {
+          "date": "2026-10-06",
+          "open": 254.15,
+          "high": 255.48,
+          "low": 251.17,
+          "close": 254.78
+        },
+        {
+          "date": "2026-10-07",
+          "open": 256.21,
+          "high": 260.68,
+          "low": 255.73,
+          "close": 258.45
+        },
+        {
+          "date": "2026-10-08",
+          "open": 256.22,
+          "high": 257.8,
+          "low": 251.95,
+          "close": 256.48
+        },
+        {
+          "date": "2026-10-09",
+          "open": 255.09,
+          "high": 261.61,
+          "low": 254.99,
+          "close": 261.44
+        },
+        {
+          "date": "2026-10-12",
+          "open": 261.6,
+          "high": 264.39,
+          "low": 260.37,
+          "close": 263.73
+        },
+        {
+          "date": "2026-10-13",
+          "open": 254.56,
+          "high": 256.18,
+          "low": 245.17,
+          "close": 248.61
+        }
+      ],
+      "current_price": 248.61,
+      "predicted_next_close": 251.0294,
       "predicted_direction": "up",
       "all_model_metrics": {
         "XGBoost": {
-          "rmse": 9.267,
-          "mae": 7.258,
-          "r2": -0.7778,
-          "mape": 3.1857
+          "rmse": 14.4714,
+          "mae": 13.6761,
+          "r2": -4.2575,
+          "mape": 5.0931
         },
         "RandomForest": {
-          "rmse": 6.0059,
-          "mae": 4.8558,
-          "r2": 0.2533,
-          "mape": 2.1209
+          "rmse": 10.0526,
+          "mae": 9.1654,
+          "r2": -1.537,
+          "mape": 3.4088
         },
         "GradientBoosting": {
-          "rmse": 5.0035,
-          "mae": 4.0757,
-          "r2": 0.4817,
-          "mape": 1.7734
+          "rmse": 12.0073,
+          "mae": 11.0209,
+          "r2": -2.6195,
+          "mape": 4.0971
         },
         "Ridge": {
-          "rmse": 3.9799,
-          "mae": 3.3307,
-          "r2": 0.6721,
-          "mape": 1.4446
+          "rmse": 4.2915,
+          "mae": 3.315,
+          "r2": 0.5376,
+          "mape": 1.2471
         },
         "SVR": {
-          "rmse": 15.135,
-          "mae": 13.9382,
-          "r2": -3.7422,
-          "mape": 5.9488
+          "rmse": 17.4891,
+          "mae": 16.7223,
+          "r2": -6.6788,
+          "mape": 6.2418
         }
       },
       "best_model_metrics": {
-        "rmse": 3.9799,
-        "mae": 3.3307,
-        "r2": 0.6721,
-        "mape": 1.4446
+        "rmse": 4.2915,
+        "mae": 3.315,
+        "r2": 0.5376,
+        "mape": 1.2471
       },
       "train_rows": 160,
-      "test_rows": 41,
+      "test_rows": 40,
       "feature_columns": [
         "ema_20",
         "sma_50",
@@ -1102,55 +2063,270 @@
         "Close",
         "Volume"
       ],
-      "trained_at": "2026-05-14T20:14:54.908636+00:00"
+      "trained_at": "2026-10-15T07:44:29.068497+00:00"
     },
     "JPM": {
       "ticker": "JPM",
       "best_model": "Ridge",
-      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2\\models\\JPM_best_model.pkl",
-      "current_price": 300.25,
-      "predicted_next_close": 299.3261,
+      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2_updated\\models\\JPM_best_model.pkl",
+      "as_of_date": "2026-10-13",
+      "predicted_for_date": "2026-10-14",
+      "actual_next_close": 335.28,
+      "price_history": [
+        {
+          "date": "2026-09-01",
+          "open": 353.9641,
+          "high": 358.1432,
+          "low": 352.3621,
+          "close": 353.188
+        },
+        {
+          "date": "2026-09-02",
+          "open": 355.775,
+          "high": 359.6756,
+          "low": 352.0337,
+          "close": 354.4517
+        },
+        {
+          "date": "2026-09-03",
+          "open": 356.8994,
+          "high": 361.0488,
+          "low": 354.6208,
+          "close": 360.2627
+        },
+        {
+          "date": "2026-09-04",
+          "open": 359.2079,
+          "high": 361.0587,
+          "low": 353.4367,
+          "close": 356.8596
+        },
+        {
+          "date": "2026-09-08",
+          "open": 355.3273,
+          "high": 356.7701,
+          "low": 351.4765,
+          "close": 351.7551
+        },
+        {
+          "date": "2026-09-09",
+          "open": 350.2526,
+          "high": 354.5611,
+          "low": 346.9591,
+          "close": 352.9492
+        },
+        {
+          "date": "2026-09-10",
+          "open": 351.7551,
+          "high": 352.4616,
+          "low": 349.377,
+          "close": 351.8049
+        },
+        {
+          "date": "2026-09-11",
+          "open": 356.5412,
+          "high": 358.2626,
+          "low": 353.0288,
+          "close": 354.4616
+        },
+        {
+          "date": "2026-09-14",
+          "open": 352.4716,
+          "high": 353.5163,
+          "low": 345.8247,
+          "close": 348.3919
+        },
+        {
+          "date": "2026-09-15",
+          "open": 349.2576,
+          "high": 352.9392,
+          "low": 341.367,
+          "close": 350.7402
+        },
+        {
+          "date": "2026-09-16",
+          "open": 351.6258,
+          "high": 353.8348,
+          "low": 342.9789,
+          "close": 347.1879
+        },
+        {
+          "date": "2026-09-17",
+          "open": 350.5014,
+          "high": 351.7352,
+          "low": 343.556,
+          "close": 347.576
+        },
+        {
+          "date": "2026-09-18",
+          "open": 346.163,
+          "high": 347.9342,
+          "low": 343.2973,
+          "close": 347.9342
+        },
+        {
+          "date": "2026-09-21",
+          "open": 351.9143,
+          "high": 352.7402,
+          "low": 348.3421,
+          "close": 350.2924
+        },
+        {
+          "date": "2026-09-22",
+          "open": 350.2526,
+          "high": 350.3521,
+          "low": 335.6256,
+          "close": 338.3122
+        },
+        {
+          "date": "2026-09-23",
+          "open": 335.934,
+          "high": 339.745,
+          "low": 335.3072,
+          "close": 335.8544
+        },
+        {
+          "date": "2026-09-24",
+          "open": 336.4415,
+          "high": 337.6853,
+          "low": 333.6156,
+          "close": 336.8793
+        },
+        {
+          "date": "2026-09-25",
+          "open": 339.0784,
+          "high": 341.6058,
+          "low": 336.959,
+          "close": 341.357
+        },
+        {
+          "date": "2026-09-28",
+          "open": 340.1331,
+          "high": 340.3022,
+          "low": 334.6305,
+          "close": 334.9191
+        },
+        {
+          "date": "2026-09-29",
+          "open": 335.3271,
+          "high": 337.0684,
+          "low": 331.6753,
+          "close": 333.3171
+        },
+        {
+          "date": "2026-09-30",
+          "open": 333.2276,
+          "high": 334.6703,
+          "low": 329.1877,
+          "close": 329.1877
+        },
+        {
+          "date": "2026-10-01",
+          "open": 327.118,
+          "high": 331.924,
+          "low": 324.2523,
+          "close": 331.526
+        },
+        {
+          "date": "2026-10-02",
+          "open": 332.342,
+          "high": 333.1878,
+          "low": 328.3618,
+          "close": 330.73
+        },
+        {
+          "date": "2026-10-05",
+          "open": 331.6554,
+          "high": 332.0932,
+          "low": 328.9489,
+          "close": 330.73
+        },
+        {
+          "date": "2026-10-06",
+          "open": 332.73,
+          "high": 333.79,
+          "low": 330.93,
+          "close": 331.28
+        },
+        {
+          "date": "2026-10-07",
+          "open": 327.2,
+          "high": 329.87,
+          "low": 325.07,
+          "close": 329.58
+        },
+        {
+          "date": "2026-10-08",
+          "open": 327.25,
+          "high": 332.31,
+          "low": 325.63,
+          "close": 331.42
+        },
+        {
+          "date": "2026-10-09",
+          "open": 331.2,
+          "high": 333.54,
+          "low": 330.58,
+          "close": 332.99
+        },
+        {
+          "date": "2026-10-12",
+          "open": 334.3,
+          "high": 336.34,
+          "low": 333.55,
+          "close": 334.3
+        },
+        {
+          "date": "2026-10-13",
+          "open": 339.97,
+          "high": 344.36,
+          "low": 331.17,
+          "close": 331.43
+        }
+      ],
+      "current_price": 331.43,
+      "predicted_next_close": 330.7673,
       "predicted_direction": "down",
       "all_model_metrics": {
         "XGBoost": {
-          "rmse": 4.3532,
-          "mae": 3.3294,
-          "r2": 0.8184,
-          "mape": 1.0982
+          "rmse": 8.8454,
+          "mae": 7.4812,
+          "r2": 0.2505,
+          "mape": 2.2017
         },
         "RandomForest": {
-          "rmse": 4.1231,
-          "mae": 3.1069,
-          "r2": 0.8371,
-          "mape": 1.0294
+          "rmse": 9.5062,
+          "mae": 7.873,
+          "r2": 0.1344,
+          "mape": 2.3185
         },
         "GradientBoosting": {
-          "rmse": 4.2532,
-          "mae": 3.2483,
-          "r2": 0.8266,
-          "mape": 1.0731
+          "rmse": 8.5531,
+          "mae": 7.1786,
+          "r2": 0.2992,
+          "mape": 2.109
         },
         "Ridge": {
-          "rmse": 4.1091,
-          "mae": 3.2326,
-          "r2": 0.8382,
-          "mape": 1.0677
+          "rmse": 3.5096,
+          "mae": 2.6676,
+          "r2": 0.882,
+          "mape": 0.7723
         },
         "SVR": {
-          "rmse": 6.0461,
-          "mae": 4.8089,
-          "r2": 0.6496,
-          "mape": 1.5962
+          "rmse": 16.2579,
+          "mae": 14.5435,
+          "r2": -1.5319,
+          "mape": 4.2202
         }
       },
       "best_model_metrics": {
-        "rmse": 4.1091,
-        "mae": 3.2326,
-        "r2": 0.8382,
-        "mape": 1.0677
+        "rmse": 3.5096,
+        "mae": 2.6676,
+        "r2": 0.882,
+        "mape": 0.7723
       },
       "train_rows": 160,
-      "test_rows": 41,
+      "test_rows": 40,
       "feature_columns": [
         "ema_20",
         "sma_50",
@@ -1178,131 +2354,270 @@
         "Close",
         "Volume"
       ],
-      "trained_at": "2026-05-14T20:14:56.928856+00:00"
-    },
-    "LYFT": {
-      "ticker": "LYFT",
-      "best_model": "RandomForest",
-      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2\\models\\LYFT_best_model.pkl",
-      "current_price": 13.68,
-      "predicted_next_close": 14.0788,
-      "predicted_direction": "up",
-      "all_model_metrics": {
-        "XGBoost": {
-          "rmse": 0.8134,
-          "mae": 0.7078,
-          "r2": -1.0278,
-          "mape": 5.2007
-        },
-        "RandomForest": {
-          "rmse": 0.5116,
-          "mae": 0.4139,
-          "r2": 0.1977,
-          "mape": 3.0418
-        },
-        "GradientBoosting": {
-          "rmse": 0.5433,
-          "mae": 0.3881,
-          "r2": 0.0952,
-          "mape": 2.8224
-        },
-        "Ridge": {
-          "rmse": 0.5901,
-          "mae": 0.4963,
-          "r2": -0.0674,
-          "mape": 3.5758
-        },
-        "SVR": {
-          "rmse": 1.6953,
-          "mae": 1.4839,
-          "r2": -7.8091,
-          "mape": 10.658
-        }
-      },
-      "best_model_metrics": {
-        "rmse": 0.5116,
-        "mae": 0.4139,
-        "r2": 0.1977,
-        "mape": 3.0418
-      },
-      "train_rows": 160,
-      "test_rows": 41,
-      "feature_columns": [
-        "ema_20",
-        "sma_50",
-        "rsi",
-        "macd",
-        "macd_signal",
-        "macd_hist",
-        "bb_upper",
-        "bb_lower",
-        "bb_width",
-        "bb_position",
-        "close_to_ema20",
-        "close_to_sma50",
-        "high_low_range",
-        "return_1d",
-        "return_5d",
-        "return_10d",
-        "volume_ratio",
-        "lag_1",
-        "lag_2",
-        "lag_5",
-        "Open",
-        "High",
-        "Low",
-        "Close",
-        "Volume"
-      ],
-      "trained_at": "2026-05-14T20:14:59.162053+00:00"
+      "trained_at": "2026-10-15T07:44:31.605896+00:00"
     },
     "MA": {
       "ticker": "MA",
       "best_model": "Ridge",
-      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2\\models\\MA_best_model.pkl",
-      "current_price": 490.64,
-      "predicted_next_close": 487.4188,
+      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2_updated\\models\\MA_best_model.pkl",
+      "as_of_date": "2026-10-13",
+      "predicted_for_date": "2026-10-14",
+      "actual_next_close": 603.24,
+      "price_history": [
+        {
+          "date": "2026-09-01",
+          "open": 588.7575,
+          "high": 591.743,
+          "low": 580.0008,
+          "close": 580.2204
+        },
+        {
+          "date": "2026-09-02",
+          "open": 583.116,
+          "high": 589.8159,
+          "low": 582.8165,
+          "close": 587.2498
+        },
+        {
+          "date": "2026-09-03",
+          "open": 589.7959,
+          "high": 592.0724,
+          "low": 582.9263,
+          "close": 584.8235
+        },
+        {
+          "date": "2026-09-04",
+          "open": 579.851,
+          "high": 583.6153,
+          "low": 577.8341,
+          "close": 578.3333
+        },
+        {
+          "date": "2026-09-08",
+          "open": 571.8032,
+          "high": 574.7986,
+          "low": 566.1517,
+          "close": 570.0259
+        },
+        {
+          "date": "2026-09-09",
+          "open": 568.1387,
+          "high": 569.976,
+          "low": 564.8737,
+          "close": 566.641
+        },
+        {
+          "date": "2026-09-10",
+          "open": 564.1448,
+          "high": 567.8691,
+          "low": 562.3175,
+          "close": 564.5142
+        },
+        {
+          "date": "2026-09-11",
+          "open": 568.0189,
+          "high": 571.8131,
+          "low": 563.3959,
+          "close": 568.3284
+        },
+        {
+          "date": "2026-09-14",
+          "open": 575.1081,
+          "high": 578.0237,
+          "low": 565.1033,
+          "close": 573.5505
+        },
+        {
+          "date": "2026-09-15",
+          "open": 570.615,
+          "high": 573.1312,
+          "low": 566.4513,
+          "close": 572.4023
+        },
+        {
+          "date": "2026-09-16",
+          "open": 570.7248,
+          "high": 572.1726,
+          "low": 564.4643,
+          "close": 566.8906
+        },
+        {
+          "date": "2026-09-17",
+          "open": 567.2101,
+          "high": 568.9974,
+          "low": 563.2162,
+          "close": 564.8737
+        },
+        {
+          "date": "2026-09-18",
+          "open": 564.0949,
+          "high": 567.5696,
+          "low": 561.0495,
+          "close": 564.3844
+        },
+        {
+          "date": "2026-09-21",
+          "open": 566.2515,
+          "high": 568.5281,
+          "low": 561.5087,
+          "close": 566.7908
+        },
+        {
+          "date": "2026-09-22",
+          "open": 570.3154,
+          "high": 570.4851,
+          "low": 552.2828,
+          "close": 555.0486
+        },
+        {
+          "date": "2026-09-23",
+          "open": 554.9388,
+          "high": 564.8936,
+          "low": 553.1614,
+          "close": 559.0724
+        },
+        {
+          "date": "2026-09-24",
+          "open": 560.1508,
+          "high": 567.3199,
+          "low": 558.8328,
+          "close": 565.2231
+        },
+        {
+          "date": "2026-09-25",
+          "open": 566.2216,
+          "high": 567.9191,
+          "low": 561.4388,
+          "close": 566.7908
+        },
+        {
+          "date": "2026-09-28",
+          "open": 565.4229,
+          "high": 568.7079,
+          "low": 562.647,
+          "close": 567.3998
+        },
+        {
+          "date": "2026-09-29",
+          "open": 563.1463,
+          "high": 566.1317,
+          "low": 560.4504,
+          "close": 562.7269
+        },
+        {
+          "date": "2026-09-30",
+          "open": 561.409,
+          "high": 562.1478,
+          "low": 550.5953,
+          "close": 550.6353
+        },
+        {
+          "date": "2026-10-01",
+          "open": 550.166,
+          "high": 556.3566,
+          "low": 545.2933,
+          "close": 549.1675
+        },
+        {
+          "date": "2026-10-02",
+          "open": 550.4855,
+          "high": 553.8404,
+          "low": 544.5844,
+          "close": 551.4241
+        },
+        {
+          "date": "2026-10-05",
+          "open": 551.2044,
+          "high": 565.0134,
+          "low": 550.3158,
+          "close": 563.7354
+        },
+        {
+          "date": "2026-10-06",
+          "open": 562.6471,
+          "high": 568.0688,
+          "low": 561.2891,
+          "close": 565.7224
+        },
+        {
+          "date": "2026-10-07",
+          "open": 566.631,
+          "high": 572.8416,
+          "low": 566.1418,
+          "close": 569.1971
+        },
+        {
+          "date": "2026-10-08",
+          "open": 567.6295,
+          "high": 580.7097,
+          "low": 567.6295,
+          "close": 573.89
+        },
+        {
+          "date": "2026-10-09",
+          "open": 574.11,
+          "high": 591.28,
+          "low": 574.0,
+          "close": 589.14
+        },
+        {
+          "date": "2026-10-12",
+          "open": 592.86,
+          "high": 598.95,
+          "low": 590.21,
+          "close": 595.09
+        },
+        {
+          "date": "2026-10-13",
+          "open": 599.69,
+          "high": 605.6,
+          "low": 597.13,
+          "close": 604.8
+        }
+      ],
+      "current_price": 604.8,
+      "predicted_next_close": 591.2394,
       "predicted_direction": "down",
       "all_model_metrics": {
         "XGBoost": {
-          "rmse": 12.9617,
-          "mae": 10.933,
-          "r2": -0.8461,
-          "mape": 2.1999
+          "rmse": 17.8731,
+          "mae": 15.7785,
+          "r2": -0.6143,
+          "mape": 2.7236
         },
         "RandomForest": {
-          "rmse": 10.4526,
-          "mae": 8.6361,
-          "r2": -0.2005,
-          "mape": 1.7338
+          "rmse": 14.0263,
+          "mae": 10.6488,
+          "r2": 0.0058,
+          "mape": 1.8264
         },
         "GradientBoosting": {
-          "rmse": 11.2305,
-          "mae": 9.2382,
-          "r2": -0.3859,
-          "mape": 1.8545
+          "rmse": 14.7442,
+          "mae": 11.8904,
+          "r2": -0.0986,
+          "mape": 2.0457
         },
         "Ridge": {
-          "rmse": 8.7239,
-          "mae": 6.7105,
-          "r2": 0.1637,
-          "mape": 1.3378
+          "rmse": 9.8467,
+          "mae": 7.7097,
+          "r2": 0.51,
+          "mape": 1.3361
         },
         "SVR": {
-          "rmse": 23.2576,
-          "mae": 21.0703,
-          "r2": -4.9436,
-          "mape": 4.2116
+          "rmse": 18.9005,
+          "mae": 17.4106,
+          "r2": -0.8052,
+          "mape": 3.0158
         }
       },
       "best_model_metrics": {
-        "rmse": 8.7239,
-        "mae": 6.7105,
-        "r2": 0.1637,
-        "mape": 1.3378
+        "rmse": 9.8467,
+        "mae": 7.7097,
+        "r2": 0.51,
+        "mape": 1.3361
       },
       "train_rows": 160,
-      "test_rows": 41,
+      "test_rows": 40,
       "feature_columns": [
         "ema_20",
         "sma_50",
@@ -1330,55 +2645,270 @@
         "Close",
         "Volume"
       ],
-      "trained_at": "2026-05-14T20:15:02.333417+00:00"
+      "trained_at": "2026-10-15T07:44:34.302037+00:00"
     },
     "META": {
       "ticker": "META",
       "best_model": "Ridge",
-      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2\\models\\META_best_model.pkl",
-      "current_price": 616.63,
-      "predicted_next_close": 617.3709,
-      "predicted_direction": "up",
+      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2_updated\\models\\META_best_model.pkl",
+      "as_of_date": "2026-10-13",
+      "predicted_for_date": "2026-10-14",
+      "actual_next_close": 737.54,
+      "price_history": [
+        {
+          "date": "2026-09-01",
+          "open": 557.9097,
+          "high": 584.4887,
+          "low": 555.6614,
+          "close": 578.0837
+        },
+        {
+          "date": "2026-09-02",
+          "open": 578.3335,
+          "high": 599.9065,
+          "low": 576.545,
+          "close": 592.3824
+        },
+        {
+          "date": "2026-09-03",
+          "open": 604.0133,
+          "high": 618.9715,
+          "low": 603.8734,
+          "close": 610.1984
+        },
+        {
+          "date": "2026-09-04",
+          "open": 611.8671,
+          "high": 616.9731,
+          "low": 604.7927,
+          "close": 616.2836
+        },
+        {
+          "date": "2026-09-08",
+          "open": 615.7241,
+          "high": 624.3073,
+          "low": 609.2592,
+          "close": 612.9962
+        },
+        {
+          "date": "2026-09-09",
+          "open": 648.1285,
+          "high": 657.3412,
+          "low": 638.0564,
+          "close": 653.1745
+        },
+        {
+          "date": "2026-09-10",
+          "open": 653.1945,
+          "high": 662.9768,
+          "low": 641.6337,
+          "close": 643.8719
+        },
+        {
+          "date": "2026-09-11",
+          "open": 652.9947,
+          "high": 663.7162,
+          "low": 645.6905,
+          "close": 647.519
+        },
+        {
+          "date": "2026-09-14",
+          "open": 657.3113,
+          "high": 668.0728,
+          "low": 648.708,
+          "close": 665.0751
+        },
+        {
+          "date": "2026-09-15",
+          "open": 658.7801,
+          "high": 678.3347,
+          "low": 655.6826,
+          "close": 669.7115
+        },
+        {
+          "date": "2026-09-16",
+          "open": 679.3738,
+          "high": 684.7696,
+          "low": 671.3801,
+          "close": 672.7791
+        },
+        {
+          "date": "2026-09-17",
+          "open": 681.9019,
+          "high": 682.6613,
+          "low": 666.524,
+          "close": 681.772
+        },
+        {
+          "date": "2026-09-18",
+          "open": 688.077,
+          "high": 689.6058,
+          "low": 660.2789,
+          "close": 665.225
+        },
+        {
+          "date": "2026-09-21",
+          "open": 680.3,
+          "high": 753.0,
+          "low": 679.6,
+          "close": 741.25
+        },
+        {
+          "date": "2026-09-22",
+          "open": 731.4,
+          "high": 757.27,
+          "low": 730.0,
+          "close": 736.6
+        },
+        {
+          "date": "2026-09-23",
+          "open": 747.6,
+          "high": 763.9,
+          "low": 739.51,
+          "close": 744.1
+        },
+        {
+          "date": "2026-09-24",
+          "open": 744.36,
+          "high": 779.82,
+          "low": 743.01,
+          "close": 777.59
+        },
+        {
+          "date": "2026-09-25",
+          "open": 768.85,
+          "high": 769.57,
+          "low": 746.54,
+          "close": 751.66
+        },
+        {
+          "date": "2026-09-28",
+          "open": 750.04,
+          "high": 750.58,
+          "low": 713.19,
+          "close": 715.62
+        },
+        {
+          "date": "2026-09-29",
+          "open": 725.0,
+          "high": 740.45,
+          "low": 715.1,
+          "close": 738.79
+        },
+        {
+          "date": "2026-09-30",
+          "open": 730.27,
+          "high": 738.25,
+          "low": 721.3,
+          "close": 725.18
+        },
+        {
+          "date": "2026-10-01",
+          "open": 728.53,
+          "high": 735.88,
+          "low": 721.51,
+          "close": 725.93
+        },
+        {
+          "date": "2026-10-02",
+          "open": 733.25,
+          "high": 741.58,
+          "low": 726.2,
+          "close": 728.08
+        },
+        {
+          "date": "2026-10-05",
+          "open": 727.71,
+          "high": 746.7,
+          "low": 727.12,
+          "close": 741.9
+        },
+        {
+          "date": "2026-10-06",
+          "open": 746.73,
+          "high": 747.6,
+          "low": 736.69,
+          "close": 738.88
+        },
+        {
+          "date": "2026-10-07",
+          "open": 738.29,
+          "high": 738.29,
+          "low": 720.15,
+          "close": 721.31
+        },
+        {
+          "date": "2026-10-08",
+          "open": 724.54,
+          "high": 724.95,
+          "low": 711.68,
+          "close": 720.89
+        },
+        {
+          "date": "2026-10-09",
+          "open": 726.51,
+          "high": 728.07,
+          "low": 716.2,
+          "close": 718.67
+        },
+        {
+          "date": "2026-10-12",
+          "open": 728.5,
+          "high": 752.24,
+          "low": 727.64,
+          "close": 742.96
+        },
+        {
+          "date": "2026-10-13",
+          "open": 735.99,
+          "high": 771.27,
+          "low": 734.84,
+          "close": 762.5
+        }
+      ],
+      "current_price": 762.5,
+      "predicted_next_close": 734.6643,
+      "predicted_direction": "down",
       "all_model_metrics": {
         "XGBoost": {
-          "rmse": 36.613,
-          "mae": 29.2573,
-          "r2": 0.2049,
-          "mape": 4.9506
+          "rmse": 54.1965,
+          "mae": 43.5415,
+          "r2": 0.4773,
+          "mape": 6.2671
         },
         "RandomForest": {
-          "rmse": 32.2391,
-          "mae": 22.648,
-          "r2": 0.3836,
-          "mape": 3.8745
+          "rmse": 40.2994,
+          "mae": 32.3405,
+          "r2": 0.711,
+          "mape": 4.6547
         },
         "GradientBoosting": {
-          "rmse": 35.4703,
-          "mae": 27.0582,
-          "r2": 0.2538,
-          "mape": 4.6008
+          "rmse": 47.7209,
+          "mae": 38.1743,
+          "r2": 0.5948,
+          "mape": 5.4865
         },
         "Ridge": {
-          "rmse": 17.5527,
-          "mae": 12.8193,
-          "r2": 0.8173,
-          "mape": 2.1271
+          "rmse": 28.0557,
+          "mae": 19.896,
+          "r2": 0.8599,
+          "mape": 2.8449
         },
         "SVR": {
-          "rmse": 45.65,
-          "mae": 34.0267,
-          "r2": -0.236,
-          "mape": 5.8017
+          "rmse": 69.1233,
+          "mae": 51.0423,
+          "r2": 0.1497,
+          "mape": 7.1551
         }
       },
       "best_model_metrics": {
-        "rmse": 17.5527,
-        "mae": 12.8193,
-        "r2": 0.8173,
-        "mape": 2.1271
+        "rmse": 28.0557,
+        "mae": 19.896,
+        "r2": 0.8599,
+        "mape": 2.8449
       },
       "train_rows": 160,
-      "test_rows": 41,
+      "test_rows": 40,
       "feature_columns": [
         "ema_20",
         "sma_50",
@@ -1406,55 +2936,270 @@
         "Close",
         "Volume"
       ],
-      "trained_at": "2026-05-14T20:15:05.482180+00:00"
+      "trained_at": "2026-10-15T07:44:36.676197+00:00"
     },
     "MSFT": {
       "ticker": "MSFT",
       "best_model": "Ridge",
-      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2\\models\\MSFT_best_model.pkl",
-      "current_price": 405.21,
-      "predicted_next_close": 405.6669,
-      "predicted_direction": "up",
+      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2_updated\\models\\MSFT_best_model.pkl",
+      "as_of_date": "2026-10-13",
+      "predicted_for_date": "2026-10-14",
+      "actual_next_close": 533.69,
+      "price_history": [
+        {
+          "date": "2026-09-01",
+          "open": 497.52,
+          "high": 505.97,
+          "low": 496.78,
+          "close": 501.02
+        },
+        {
+          "date": "2026-09-02",
+          "open": 499.85,
+          "high": 500.27,
+          "low": 493.81,
+          "close": 496.82
+        },
+        {
+          "date": "2026-09-03",
+          "open": 501.66,
+          "high": 515.65,
+          "low": 500.8,
+          "close": 510.12
+        },
+        {
+          "date": "2026-09-04",
+          "open": 510.0,
+          "high": 511.0,
+          "low": 499.36,
+          "close": 499.7
+        },
+        {
+          "date": "2026-09-08",
+          "open": 493.01,
+          "high": 495.19,
+          "low": 490.15,
+          "close": 493.95
+        },
+        {
+          "date": "2026-09-09",
+          "open": 493.07,
+          "high": 494.39,
+          "low": 489.8,
+          "close": 491.65
+        },
+        {
+          "date": "2026-09-10",
+          "open": 488.32,
+          "high": 494.52,
+          "low": 486.0,
+          "close": 492.44
+        },
+        {
+          "date": "2026-09-11",
+          "open": 495.65,
+          "high": 498.97,
+          "low": 492.58,
+          "close": 495.63
+        },
+        {
+          "date": "2026-09-14",
+          "open": 497.06,
+          "high": 509.95,
+          "low": 495.34,
+          "close": 505.41
+        },
+        {
+          "date": "2026-09-15",
+          "open": 500.06,
+          "high": 505.9,
+          "low": 495.54,
+          "close": 497.12
+        },
+        {
+          "date": "2026-09-16",
+          "open": 493.03,
+          "high": 495.97,
+          "low": 487.23,
+          "close": 490.3
+        },
+        {
+          "date": "2026-09-17",
+          "open": 497.8,
+          "high": 501.47,
+          "low": 493.17,
+          "close": 497.75
+        },
+        {
+          "date": "2026-09-18",
+          "open": 497.97,
+          "high": 498.65,
+          "low": 491.1,
+          "close": 493.78
+        },
+        {
+          "date": "2026-09-21",
+          "open": 494.95,
+          "high": 501.87,
+          "low": 491.33,
+          "close": 501.61
+        },
+        {
+          "date": "2026-09-22",
+          "open": 507.32,
+          "high": 508.5,
+          "low": 493.65,
+          "close": 498.0
+        },
+        {
+          "date": "2026-09-23",
+          "open": 500.76,
+          "high": 509.44,
+          "low": 495.88,
+          "close": 500.59
+        },
+        {
+          "date": "2026-09-24",
+          "open": 495.07,
+          "high": 498.9,
+          "low": 491.22,
+          "close": 497.93
+        },
+        {
+          "date": "2026-09-25",
+          "open": 499.04,
+          "high": 519.4,
+          "low": 497.25,
+          "close": 516.17
+        },
+        {
+          "date": "2026-09-28",
+          "open": 505.47,
+          "high": 513.33,
+          "low": 502.22,
+          "close": 509.22
+        },
+        {
+          "date": "2026-09-29",
+          "open": 508.31,
+          "high": 513.64,
+          "low": 502.4,
+          "close": 508.96
+        },
+        {
+          "date": "2026-09-30",
+          "open": 511.61,
+          "high": 519.83,
+          "low": 510.31,
+          "close": 512.9
+        },
+        {
+          "date": "2026-10-01",
+          "open": 519.88,
+          "high": 522.85,
+          "low": 512.17,
+          "close": 512.8
+        },
+        {
+          "date": "2026-10-02",
+          "open": 519.39,
+          "high": 522.5,
+          "low": 513.66,
+          "close": 517.53
+        },
+        {
+          "date": "2026-10-05",
+          "open": 521.62,
+          "high": 532.35,
+          "low": 521.47,
+          "close": 525.18
+        },
+        {
+          "date": "2026-10-06",
+          "open": 531.68,
+          "high": 535.69,
+          "low": 528.78,
+          "close": 529.3
+        },
+        {
+          "date": "2026-10-07",
+          "open": 530.73,
+          "high": 531.73,
+          "low": 524.69,
+          "close": 529.76
+        },
+        {
+          "date": "2026-10-08",
+          "open": 529.81,
+          "high": 533.51,
+          "low": 518.79,
+          "close": 522.61
+        },
+        {
+          "date": "2026-10-09",
+          "open": 528.24,
+          "high": 537.22,
+          "low": 526.24,
+          "close": 535.07
+        },
+        {
+          "date": "2026-10-12",
+          "open": 537.53,
+          "high": 542.74,
+          "low": 535.7,
+          "close": 541.15
+        },
+        {
+          "date": "2026-10-13",
+          "open": 544.64,
+          "high": 551.15,
+          "low": 543.06,
+          "close": 543.45
+        }
+      ],
+      "current_price": 543.45,
+      "predicted_next_close": 533.4737,
+      "predicted_direction": "down",
       "all_model_metrics": {
         "XGBoost": {
-          "rmse": 20.6294,
-          "mae": 16.6939,
-          "r2": 0.1766,
-          "mape": 4.3568
+          "rmse": 30.9267,
+          "mae": 27.2884,
+          "r2": -2.8036,
+          "mape": 5.3239
         },
         "RandomForest": {
-          "rmse": 19.6489,
-          "mae": 16.3267,
-          "r2": 0.253,
-          "mape": 4.2388
+          "rmse": 27.7385,
+          "mae": 23.7544,
+          "r2": -2.0598,
+          "mape": 4.623
         },
         "GradientBoosting": {
-          "rmse": 18.2405,
-          "mae": 14.9151,
-          "r2": 0.3563,
-          "mape": 3.8797
+          "rmse": 29.416,
+          "mae": 25.8534,
+          "r2": -2.4411,
+          "mape": 5.0431
         },
         "Ridge": {
-          "rmse": 12.6157,
-          "mae": 9.5651,
-          "r2": 0.6921,
-          "mape": 2.3455
+          "rmse": 11.2805,
+          "mae": 9.5245,
+          "r2": 0.494,
+          "mape": 1.879
         },
         "SVR": {
-          "rmse": 35.5162,
-          "mae": 31.6155,
-          "r2": -1.4406,
-          "mape": 8.1643
+          "rmse": 55.173,
+          "mae": 51.7541,
+          "r2": -11.1053,
+          "mape": 10.148
         }
       },
       "best_model_metrics": {
-        "rmse": 12.6157,
-        "mae": 9.5651,
-        "r2": 0.6921,
-        "mape": 2.3455
+        "rmse": 11.2805,
+        "mae": 9.5245,
+        "r2": 0.494,
+        "mape": 1.879
       },
       "train_rows": 160,
-      "test_rows": 41,
+      "test_rows": 40,
       "feature_columns": [
         "ema_20",
         "sma_50",
@@ -1482,55 +3227,270 @@
         "Close",
         "Volume"
       ],
-      "trained_at": "2026-05-14T20:15:07.943811+00:00"
+      "trained_at": "2026-10-15T07:44:38.956758+00:00"
     },
     "NFLX": {
       "ticker": "NFLX",
       "best_model": "Ridge",
-      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2\\models\\NFLX_best_model.pkl",
-      "current_price": 87.56,
-      "predicted_next_close": 88.6081,
+      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2_updated\\models\\NFLX_best_model.pkl",
+      "as_of_date": "2026-10-13",
+      "predicted_for_date": "2026-10-14",
+      "actual_next_close": 70.57,
+      "price_history": [
+        {
+          "date": "2026-09-01",
+          "open": 80.17,
+          "high": 82.13,
+          "low": 79.6,
+          "close": 80.81
+        },
+        {
+          "date": "2026-09-02",
+          "open": 80.55,
+          "high": 83.12,
+          "low": 80.3,
+          "close": 82.73
+        },
+        {
+          "date": "2026-09-03",
+          "open": 83.18,
+          "high": 83.6,
+          "low": 81.63,
+          "close": 82.67
+        },
+        {
+          "date": "2026-09-04",
+          "open": 82.17,
+          "high": 82.69,
+          "low": 78.23,
+          "close": 78.25
+        },
+        {
+          "date": "2026-09-08",
+          "open": 77.55,
+          "high": 77.73,
+          "low": 75.92,
+          "close": 76.77
+        },
+        {
+          "date": "2026-09-09",
+          "open": 76.34,
+          "high": 76.72,
+          "low": 75.87,
+          "close": 76.03
+        },
+        {
+          "date": "2026-09-10",
+          "open": 75.33,
+          "high": 76.3,
+          "low": 75.03,
+          "close": 76.01
+        },
+        {
+          "date": "2026-09-11",
+          "open": 76.64,
+          "high": 77.57,
+          "low": 76.15,
+          "close": 77.4
+        },
+        {
+          "date": "2026-09-14",
+          "open": 78.97,
+          "high": 81.02,
+          "low": 78.49,
+          "close": 80.32
+        },
+        {
+          "date": "2026-09-15",
+          "open": 79.38,
+          "high": 79.48,
+          "low": 77.46,
+          "close": 77.9
+        },
+        {
+          "date": "2026-09-16",
+          "open": 77.73,
+          "high": 77.8,
+          "low": 76.31,
+          "close": 76.41
+        },
+        {
+          "date": "2026-09-17",
+          "open": 76.91,
+          "high": 76.96,
+          "low": 75.3,
+          "close": 75.31
+        },
+        {
+          "date": "2026-09-18",
+          "open": 71.27,
+          "high": 72.38,
+          "low": 70.11,
+          "close": 71.79
+        },
+        {
+          "date": "2026-09-21",
+          "open": 71.82,
+          "high": 73.87,
+          "low": 71.79,
+          "close": 73.36
+        },
+        {
+          "date": "2026-09-22",
+          "open": 73.69,
+          "high": 73.76,
+          "low": 71.58,
+          "close": 72.16
+        },
+        {
+          "date": "2026-09-23",
+          "open": 72.08,
+          "high": 72.37,
+          "low": 71.07,
+          "close": 71.36
+        },
+        {
+          "date": "2026-09-24",
+          "open": 71.62,
+          "high": 72.04,
+          "low": 71.21,
+          "close": 71.72
+        },
+        {
+          "date": "2026-09-25",
+          "open": 71.63,
+          "high": 71.84,
+          "low": 70.98,
+          "close": 71.15
+        },
+        {
+          "date": "2026-09-28",
+          "open": 71.55,
+          "high": 71.65,
+          "low": 68.88,
+          "close": 69.23
+        },
+        {
+          "date": "2026-09-29",
+          "open": 70.33,
+          "high": 71.36,
+          "low": 70.15,
+          "close": 70.3
+        },
+        {
+          "date": "2026-09-30",
+          "open": 70.2,
+          "high": 70.3,
+          "low": 69.51,
+          "close": 69.58
+        },
+        {
+          "date": "2026-10-01",
+          "open": 69.41,
+          "high": 69.66,
+          "low": 67.79,
+          "close": 67.85
+        },
+        {
+          "date": "2026-10-02",
+          "open": 67.6,
+          "high": 67.87,
+          "low": 66.75,
+          "close": 67.06
+        },
+        {
+          "date": "2026-10-05",
+          "open": 67.05,
+          "high": 67.5,
+          "low": 66.54,
+          "close": 67.5
+        },
+        {
+          "date": "2026-10-06",
+          "open": 67.51,
+          "high": 68.78,
+          "low": 67.31,
+          "close": 68.69
+        },
+        {
+          "date": "2026-10-07",
+          "open": 68.8,
+          "high": 69.8,
+          "low": 68.41,
+          "close": 69.7
+        },
+        {
+          "date": "2026-10-08",
+          "open": 70.09,
+          "high": 71.62,
+          "low": 69.72,
+          "close": 71.57
+        },
+        {
+          "date": "2026-10-09",
+          "open": 70.51,
+          "high": 72.1,
+          "low": 70.19,
+          "close": 70.3
+        },
+        {
+          "date": "2026-10-12",
+          "open": 71.33,
+          "high": 71.55,
+          "low": 70.56,
+          "close": 70.61
+        },
+        {
+          "date": "2026-10-13",
+          "open": 71.16,
+          "high": 71.52,
+          "low": 70.42,
+          "close": 70.46
+        }
+      ],
+      "current_price": 70.46,
+      "predicted_next_close": 70.8777,
       "predicted_direction": "up",
       "all_model_metrics": {
         "XGBoost": {
-          "rmse": 3.3027,
-          "mae": 2.5547,
-          "r2": 0.6505,
-          "mape": 2.659
+          "rmse": 2.1168,
+          "mae": 1.7761,
+          "r2": 0.816,
+          "mape": 2.3922
         },
         "RandomForest": {
-          "rmse": 4.0848,
-          "mae": 3.5275,
-          "r2": 0.4653,
-          "mape": 3.682
+          "rmse": 2.1836,
+          "mae": 1.9638,
+          "r2": 0.8042,
+          "mape": 2.6235
         },
         "GradientBoosting": {
-          "rmse": 4.84,
-          "mae": 4.3731,
-          "r2": 0.2493,
-          "mape": 4.6084
+          "rmse": 2.211,
+          "mae": 1.8463,
+          "r2": 0.7993,
+          "mape": 2.4985
         },
         "Ridge": {
-          "rmse": 2.7303,
-          "mae": 2.0826,
-          "r2": 0.7611,
-          "mape": 2.2378
+          "rmse": 1.8015,
+          "mae": 1.4201,
+          "r2": 0.8667,
+          "mape": 1.878
         },
         "SVR": {
-          "rmse": 4.92,
-          "mae": 3.9264,
-          "r2": 0.2243,
-          "mape": 4.0331
+          "rmse": 3.0733,
+          "mae": 2.6071,
+          "r2": 0.6121,
+          "mape": 3.5017
         }
       },
       "best_model_metrics": {
-        "rmse": 2.7303,
-        "mae": 2.0826,
-        "r2": 0.7611,
-        "mape": 2.2378
+        "rmse": 1.8015,
+        "mae": 1.4201,
+        "r2": 0.8667,
+        "mape": 1.878
       },
       "train_rows": 160,
-      "test_rows": 41,
+      "test_rows": 40,
       "feature_columns": [
         "ema_20",
         "sma_50",
@@ -1558,55 +3518,270 @@
         "Close",
         "Volume"
       ],
-      "trained_at": "2026-05-14T20:15:12.304382+00:00"
+      "trained_at": "2026-10-15T07:44:41.021689+00:00"
     },
     "NVDA": {
       "ticker": "NVDA",
       "best_model": "Ridge",
-      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2\\models\\NVDA_best_model.pkl",
-      "current_price": 225.83,
-      "predicted_next_close": 215.2091,
+      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2_updated\\models\\NVDA_best_model.pkl",
+      "as_of_date": "2026-10-13",
+      "predicted_for_date": "2026-10-14",
+      "actual_next_close": 221.3,
+      "price_history": [
+        {
+          "date": "2026-09-01",
+          "open": 216.5077,
+          "high": 220.1637,
+          "low": 214.8596,
+          "close": 217.197
+        },
+        {
+          "date": "2026-09-02",
+          "open": 218.5455,
+          "high": 227.6952,
+          "low": 218.2358,
+          "close": 224.1592
+        },
+        {
+          "date": "2026-09-03",
+          "open": 225.7674,
+          "high": 230.1425,
+          "low": 224.4988,
+          "close": 228.1947
+        },
+        {
+          "date": "2026-09-04",
+          "open": 230.8317,
+          "high": 234.4976,
+          "low": 229.3733,
+          "close": 230.1025
+        },
+        {
+          "date": "2026-09-08",
+          "open": 232.8494,
+          "high": 233.4488,
+          "low": 224.5987,
+          "close": 225.4777
+        },
+        {
+          "date": "2026-09-09",
+          "open": 225.0282,
+          "high": 225.9272,
+          "low": 223.2102,
+          "close": 223.42
+        },
+        {
+          "date": "2026-09-10",
+          "open": 220.53,
+          "high": 220.99,
+          "low": 217.2,
+          "close": 218.36
+        },
+        {
+          "date": "2026-09-11",
+          "open": 221.24,
+          "high": 222.0,
+          "low": 218.15,
+          "close": 218.29
+        },
+        {
+          "date": "2026-09-14",
+          "open": 211.24,
+          "high": 212.77,
+          "low": 208.93,
+          "close": 210.96
+        },
+        {
+          "date": "2026-09-15",
+          "open": 213.38,
+          "high": 213.94,
+          "low": 211.16,
+          "close": 212.17
+        },
+        {
+          "date": "2026-09-16",
+          "open": 214.14,
+          "high": 216.76,
+          "low": 212.5,
+          "close": 213.9
+        },
+        {
+          "date": "2026-09-17",
+          "open": 218.38,
+          "high": 219.91,
+          "low": 217.15,
+          "close": 219.34
+        },
+        {
+          "date": "2026-09-18",
+          "open": 219.35,
+          "high": 222.73,
+          "low": 218.03,
+          "close": 222.27
+        },
+        {
+          "date": "2026-09-21",
+          "open": 222.94,
+          "high": 228.5,
+          "low": 221.56,
+          "close": 227.38
+        },
+        {
+          "date": "2026-09-22",
+          "open": 226.85,
+          "high": 229.98,
+          "low": 226.5,
+          "close": 228.87
+        },
+        {
+          "date": "2026-09-23",
+          "open": 228.03,
+          "high": 228.95,
+          "low": 224.02,
+          "close": 225.51
+        },
+        {
+          "date": "2026-09-24",
+          "open": 222.08,
+          "high": 224.94,
+          "low": 221.09,
+          "close": 224.58
+        },
+        {
+          "date": "2026-09-25",
+          "open": 225.13,
+          "high": 226.94,
+          "low": 223.13,
+          "close": 225.07
+        },
+        {
+          "date": "2026-09-28",
+          "open": 229.75,
+          "high": 233.21,
+          "low": 228.04,
+          "close": 228.86
+        },
+        {
+          "date": "2026-09-29",
+          "open": 230.97,
+          "high": 232.82,
+          "low": 227.03,
+          "close": 227.21
+        },
+        {
+          "date": "2026-09-30",
+          "open": 229.27,
+          "high": 232.37,
+          "low": 228.17,
+          "close": 228.38
+        },
+        {
+          "date": "2026-10-01",
+          "open": 229.98,
+          "high": 232.29,
+          "low": 228.16,
+          "close": 230.86
+        },
+        {
+          "date": "2026-10-02",
+          "open": 236.06,
+          "high": 237.88,
+          "low": 233.6,
+          "close": 233.95
+        },
+        {
+          "date": "2026-10-05",
+          "open": 236.09,
+          "high": 240.1,
+          "low": 235.15,
+          "close": 238.9
+        },
+        {
+          "date": "2026-10-06",
+          "open": 242.1,
+          "high": 243.37,
+          "low": 238.93,
+          "close": 239.24
+        },
+        {
+          "date": "2026-10-07",
+          "open": 237.69,
+          "high": 239.08,
+          "low": 236.38,
+          "close": 237.47
+        },
+        {
+          "date": "2026-10-08",
+          "open": 234.92,
+          "high": 237.07,
+          "low": 229.85,
+          "close": 230.48
+        },
+        {
+          "date": "2026-10-09",
+          "open": 233.84,
+          "high": 233.92,
+          "low": 229.11,
+          "close": 229.28
+        },
+        {
+          "date": "2026-10-12",
+          "open": 228.73,
+          "high": 228.86,
+          "low": 224.9,
+          "close": 226.32
+        },
+        {
+          "date": "2026-10-13",
+          "open": 224.34,
+          "high": 228.64,
+          "low": 223.06,
+          "close": 228.52
+        }
+      ],
+      "current_price": 228.52,
+      "predicted_next_close": 225.8415,
       "predicted_direction": "down",
       "all_model_metrics": {
         "XGBoost": {
-          "rmse": 13.2165,
-          "mae": 9.3397,
-          "r2": 0.4237,
-          "mape": 4.547
+          "rmse": 13.4253,
+          "mae": 11.3893,
+          "r2": -1.9674,
+          "mape": 5.001
         },
         "RandomForest": {
-          "rmse": 11.1381,
-          "mae": 7.7984,
-          "r2": 0.5907,
-          "mape": 3.7876
+          "rmse": 8.8412,
+          "mae": 7.2745,
+          "r2": -0.2869,
+          "mape": 3.1955
         },
         "GradientBoosting": {
-          "rmse": 12.8142,
-          "mae": 9.2727,
-          "r2": 0.4582,
-          "mape": 4.5136
+          "rmse": 10.5285,
+          "mae": 8.9427,
+          "r2": -0.825,
+          "mape": 3.932
         },
         "Ridge": {
-          "rmse": 6.6152,
-          "mae": 4.8584,
-          "r2": 0.8556,
-          "mape": 2.4031
+          "rmse": 4.9524,
+          "mae": 3.8674,
+          "r2": 0.5962,
+          "mape": 1.7381
         },
         "SVR": {
-          "rmse": 17.2569,
-          "mae": 12.9641,
-          "r2": 0.0174,
-          "mape": 6.3067
+          "rmse": 12.1757,
+          "mae": 10.1567,
+          "r2": -1.4407,
+          "mape": 4.4603
         }
       },
       "best_model_metrics": {
-        "rmse": 6.6152,
-        "mae": 4.8584,
-        "r2": 0.8556,
-        "mape": 2.4031
+        "rmse": 4.9524,
+        "mae": 3.8674,
+        "r2": 0.5962,
+        "mape": 1.7381
       },
       "train_rows": 160,
-      "test_rows": 41,
+      "test_rows": 40,
       "feature_columns": [
         "ema_20",
         "sma_50",
@@ -1634,131 +3809,270 @@
         "Close",
         "Volume"
       ],
-      "trained_at": "2026-05-14T20:15:14.960768+00:00"
-    },
-    "PYPL": {
-      "ticker": "PYPL",
-      "best_model": "Ridge",
-      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2\\models\\PYPL_best_model.pkl",
-      "current_price": 45.23,
-      "predicted_next_close": 43.6591,
-      "predicted_direction": "down",
-      "all_model_metrics": {
-        "XGBoost": {
-          "rmse": 2.3913,
-          "mae": 1.9448,
-          "r2": 0.1136,
-          "mape": 4.0172
-        },
-        "RandomForest": {
-          "rmse": 2.3455,
-          "mae": 1.8953,
-          "r2": 0.1472,
-          "mape": 3.9231
-        },
-        "GradientBoosting": {
-          "rmse": 2.3823,
-          "mae": 1.9866,
-          "r2": 0.1203,
-          "mape": 4.1153
-        },
-        "Ridge": {
-          "rmse": 1.7621,
-          "mae": 1.5257,
-          "r2": 0.5187,
-          "mape": 3.2135
-        },
-        "SVR": {
-          "rmse": 2.3387,
-          "mae": 1.8538,
-          "r2": 0.1521,
-          "mape": 4.0196
-        }
-      },
-      "best_model_metrics": {
-        "rmse": 1.7621,
-        "mae": 1.5257,
-        "r2": 0.5187,
-        "mape": 3.2135
-      },
-      "train_rows": 160,
-      "test_rows": 41,
-      "feature_columns": [
-        "ema_20",
-        "sma_50",
-        "rsi",
-        "macd",
-        "macd_signal",
-        "macd_hist",
-        "bb_upper",
-        "bb_lower",
-        "bb_width",
-        "bb_position",
-        "close_to_ema20",
-        "close_to_sma50",
-        "high_low_range",
-        "return_1d",
-        "return_5d",
-        "return_10d",
-        "volume_ratio",
-        "lag_1",
-        "lag_2",
-        "lag_5",
-        "Open",
-        "High",
-        "Low",
-        "Close",
-        "Volume"
-      ],
-      "trained_at": "2026-05-14T20:15:18.217761+00:00"
+      "trained_at": "2026-10-15T07:44:43.495613+00:00"
     },
     "QQQ": {
       "ticker": "QQQ",
       "best_model": "Ridge",
-      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2\\models\\QQQ_best_model.pkl",
-      "current_price": 714.71,
-      "predicted_next_close": 701.3387,
+      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2_updated\\models\\QQQ_best_model.pkl",
+      "as_of_date": "2026-10-13",
+      "predicted_for_date": "2026-10-14",
+      "actual_next_close": 728.95,
+      "price_history": [
+        {
+          "date": "2026-09-01",
+          "open": 706.6536,
+          "high": 711.5585,
+          "low": 703.9264,
+          "close": 706.9034
+        },
+        {
+          "date": "2026-09-02",
+          "open": 706.3639,
+          "high": 709.0611,
+          "low": 704.366,
+          "close": 708.5017
+        },
+        {
+          "date": "2026-09-03",
+          "open": 710.11,
+          "high": 718.1716,
+          "low": 708.9512,
+          "close": 716.9229
+        },
+        {
+          "date": "2026-09-04",
+          "open": 718.6012,
+          "high": 721.1086,
+          "low": 715.8141,
+          "close": 718.2116
+        },
+        {
+          "date": "2026-09-08",
+          "open": 720.1596,
+          "high": 721.1386,
+          "low": 714.8252,
+          "close": 717.6122
+        },
+        {
+          "date": "2026-09-09",
+          "open": 715.6543,
+          "high": 718.9509,
+          "low": 713.2768,
+          "close": 715.5644
+        },
+        {
+          "date": "2026-09-10",
+          "open": 706.8135,
+          "high": 711.3188,
+          "low": 706.1242,
+          "close": 707.9523
+        },
+        {
+          "date": "2026-09-11",
+          "open": 714.935,
+          "high": 716.883,
+          "low": 712.8872,
+          "close": 714.1359
+        },
+        {
+          "date": "2026-09-14",
+          "open": 702.5979,
+          "high": 712.2079,
+          "low": 702.0085,
+          "close": 708.4418
+        },
+        {
+          "date": "2026-09-15",
+          "open": 708.0622,
+          "high": 708.7914,
+          "low": 702.9076,
+          "close": 703.8066
+        },
+        {
+          "date": "2026-09-16",
+          "open": 707.263,
+          "high": 711.139,
+          "low": 699.2713,
+          "close": 703.9864
+        },
+        {
+          "date": "2026-09-17",
+          "open": 715.2047,
+          "high": 717.2925,
+          "low": 712.5775,
+          "close": 716.1737
+        },
+        {
+          "date": "2026-09-18",
+          "open": 718.0818,
+          "high": 720.9787,
+          "low": 714.3357,
+          "close": 720.699
+        },
+        {
+          "date": "2026-09-21",
+          "open": 727.89,
+          "high": 743.22,
+          "low": 727.81,
+          "close": 741.47
+        },
+        {
+          "date": "2026-09-22",
+          "open": 740.98,
+          "high": 748.35,
+          "low": 740.93,
+          "close": 747.46
+        },
+        {
+          "date": "2026-09-23",
+          "open": 746.97,
+          "high": 747.13,
+          "low": 738.19,
+          "close": 741.21
+        },
+        {
+          "date": "2026-09-24",
+          "open": 735.29,
+          "high": 742.66,
+          "low": 734.62,
+          "close": 741.1
+        },
+        {
+          "date": "2026-09-25",
+          "open": 742.83,
+          "high": 745.92,
+          "low": 739.64,
+          "close": 744.5
+        },
+        {
+          "date": "2026-09-28",
+          "open": 740.46,
+          "high": 741.42,
+          "low": 731.63,
+          "close": 736.53
+        },
+        {
+          "date": "2026-09-29",
+          "open": 740.15,
+          "high": 740.58,
+          "low": 735.34,
+          "close": 737.93
+        },
+        {
+          "date": "2026-09-30",
+          "open": 740.19,
+          "high": 745.1,
+          "low": 739.46,
+          "close": 739.77
+        },
+        {
+          "date": "2026-10-01",
+          "open": 742.51,
+          "high": 744.67,
+          "low": 736.25,
+          "close": 742.03
+        },
+        {
+          "date": "2026-10-02",
+          "open": 751.31,
+          "high": 754.54,
+          "low": 747.53,
+          "close": 749.58
+        },
+        {
+          "date": "2026-10-05",
+          "open": 749.35,
+          "high": 756.92,
+          "low": 749.08,
+          "close": 756.2
+        },
+        {
+          "date": "2026-10-06",
+          "open": 760.52,
+          "high": 762.86,
+          "low": 759.1,
+          "close": 759.66
+        },
+        {
+          "date": "2026-10-07",
+          "open": 753.79,
+          "high": 758.3,
+          "low": 751.75,
+          "close": 757.73
+        },
+        {
+          "date": "2026-10-08",
+          "open": 753.97,
+          "high": 757.18,
+          "low": 743.23,
+          "close": 747.58
+        },
+        {
+          "date": "2026-10-09",
+          "open": 752.55,
+          "high": 752.87,
+          "low": 748.37,
+          "close": 751.27
+        },
+        {
+          "date": "2026-10-12",
+          "open": 749.69,
+          "high": 749.79,
+          "low": 744.85,
+          "close": 746.04
+        },
+        {
+          "date": "2026-10-13",
+          "open": 739.52,
+          "high": 744.2,
+          "low": 738.83,
+          "close": 743.57
+        }
+      ],
+      "current_price": 743.57,
+      "predicted_next_close": 739.2093,
       "predicted_direction": "down",
       "all_model_metrics": {
         "XGBoost": {
-          "rmse": 47.7391,
-          "mae": 36.567,
-          "r2": -0.0198,
-          "mape": 5.4767
+          "rmse": 22.8403,
+          "mae": 17.5267,
+          "r2": -0.7055,
+          "mape": 2.3702
         },
         "RandomForest": {
-          "rmse": 42.6519,
-          "mae": 32.2053,
-          "r2": 0.186,
-          "mape": 4.8223
+          "rmse": 15.1064,
+          "mae": 12.1645,
+          "r2": 0.2539,
+          "mape": 1.6483
         },
         "GradientBoosting": {
-          "rmse": 44.5517,
-          "mae": 34.0308,
-          "r2": 0.1118,
-          "mape": 5.1025
+          "rmse": 19.1012,
+          "mae": 15.4039,
+          "r2": -0.1928,
+          "mape": 2.0873
         },
         "Ridge": {
-          "rmse": 13.0323,
-          "mae": 11.3056,
-          "r2": 0.924,
-          "mape": 1.7594
+          "rmse": 8.3752,
+          "mae": 6.4535,
+          "r2": 0.7707,
+          "mape": 0.8835
         },
         "SVR": {
-          "rmse": 60.6579,
-          "mae": 49.8043,
-          "r2": -0.6464,
-          "mape": 7.5277
+          "rmse": 21.0355,
+          "mae": 18.1768,
+          "r2": -0.4466,
+          "mape": 2.4779
         }
       },
       "best_model_metrics": {
-        "rmse": 13.0323,
-        "mae": 11.3056,
-        "r2": 0.924,
-        "mape": 1.7594
+        "rmse": 8.3752,
+        "mae": 6.4535,
+        "r2": 0.7707,
+        "mape": 0.8835
       },
       "train_rows": 160,
-      "test_rows": 41,
+      "test_rows": 40,
       "feature_columns": [
         "ema_20",
         "sma_50",
@@ -1786,131 +4100,270 @@
         "Close",
         "Volume"
       ],
-      "trained_at": "2026-05-14T20:15:20.240537+00:00"
-    },
-    "SHOP": {
-      "ticker": "SHOP",
-      "best_model": "Ridge",
-      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2\\models\\SHOP_best_model.pkl",
-      "current_price": 95.4,
-      "predicted_next_close": 96.5251,
-      "predicted_direction": "up",
-      "all_model_metrics": {
-        "XGBoost": {
-          "rmse": 13.2931,
-          "mae": 11.238,
-          "r2": -1.0836,
-          "mape": 9.9756
-        },
-        "RandomForest": {
-          "rmse": 10.9573,
-          "mae": 8.9897,
-          "r2": -0.4157,
-          "mape": 8.0134
-        },
-        "GradientBoosting": {
-          "rmse": 13.8169,
-          "mae": 11.3756,
-          "r2": -1.2511,
-          "mape": 10.0256
-        },
-        "Ridge": {
-          "rmse": 5.6535,
-          "mae": 4.2926,
-          "r2": 0.6231,
-          "mape": 3.7248
-        },
-        "SVR": {
-          "rmse": 16.6434,
-          "mae": 13.7038,
-          "r2": -2.2663,
-          "mape": 12.3095
-        }
-      },
-      "best_model_metrics": {
-        "rmse": 5.6535,
-        "mae": 4.2926,
-        "r2": 0.6231,
-        "mape": 3.7248
-      },
-      "train_rows": 160,
-      "test_rows": 41,
-      "feature_columns": [
-        "ema_20",
-        "sma_50",
-        "rsi",
-        "macd",
-        "macd_signal",
-        "macd_hist",
-        "bb_upper",
-        "bb_lower",
-        "bb_width",
-        "bb_position",
-        "close_to_ema20",
-        "close_to_sma50",
-        "high_low_range",
-        "return_1d",
-        "return_5d",
-        "return_10d",
-        "volume_ratio",
-        "lag_1",
-        "lag_2",
-        "lag_5",
-        "Open",
-        "High",
-        "Low",
-        "Close",
-        "Volume"
-      ],
-      "trained_at": "2026-05-14T20:15:22.056127+00:00"
+      "trained_at": "2026-10-15T07:44:45.695416+00:00"
     },
     "SNAP": {
       "ticker": "SNAP",
       "best_model": "Ridge",
-      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2\\models\\SNAP_best_model.pkl",
-      "current_price": 5.61,
-      "predicted_next_close": 5.628,
+      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2_updated\\models\\SNAP_best_model.pkl",
+      "as_of_date": "2026-10-13",
+      "predicted_for_date": "2026-10-14",
+      "actual_next_close": 6.1,
+      "price_history": [
+        {
+          "date": "2026-09-01",
+          "open": 5.44,
+          "high": 5.47,
+          "low": 5.28,
+          "close": 5.35
+        },
+        {
+          "date": "2026-09-02",
+          "open": 5.3,
+          "high": 5.7,
+          "low": 5.29,
+          "close": 5.59
+        },
+        {
+          "date": "2026-09-03",
+          "open": 5.7,
+          "high": 6.04,
+          "low": 5.682,
+          "close": 5.7
+        },
+        {
+          "date": "2026-09-04",
+          "open": 5.65,
+          "high": 5.68,
+          "low": 5.46,
+          "close": 5.47
+        },
+        {
+          "date": "2026-09-08",
+          "open": 5.44,
+          "high": 5.51,
+          "low": 5.4,
+          "close": 5.43
+        },
+        {
+          "date": "2026-09-09",
+          "open": 5.38,
+          "high": 5.46,
+          "low": 5.19,
+          "close": 5.31
+        },
+        {
+          "date": "2026-09-10",
+          "open": 5.24,
+          "high": 5.55,
+          "low": 5.215,
+          "close": 5.52
+        },
+        {
+          "date": "2026-09-11",
+          "open": 5.62,
+          "high": 5.78,
+          "low": 5.52,
+          "close": 5.68
+        },
+        {
+          "date": "2026-09-14",
+          "open": 5.73,
+          "high": 5.93,
+          "low": 5.6,
+          "close": 5.84
+        },
+        {
+          "date": "2026-09-15",
+          "open": 5.91,
+          "high": 6.07,
+          "low": 5.83,
+          "close": 5.83
+        },
+        {
+          "date": "2026-09-16",
+          "open": 5.85,
+          "high": 5.88,
+          "low": 5.67,
+          "close": 5.72
+        },
+        {
+          "date": "2026-09-17",
+          "open": 5.85,
+          "high": 6.04,
+          "low": 5.63,
+          "close": 5.65
+        },
+        {
+          "date": "2026-09-18",
+          "open": 5.64,
+          "high": 5.65,
+          "low": 5.51,
+          "close": 5.53
+        },
+        {
+          "date": "2026-09-21",
+          "open": 5.54,
+          "high": 5.87,
+          "low": 5.53,
+          "close": 5.7
+        },
+        {
+          "date": "2026-09-22",
+          "open": 5.78,
+          "high": 5.84,
+          "low": 5.6,
+          "close": 5.62
+        },
+        {
+          "date": "2026-09-23",
+          "open": 5.58,
+          "high": 5.58,
+          "low": 5.25,
+          "close": 5.29
+        },
+        {
+          "date": "2026-09-24",
+          "open": 5.23,
+          "high": 5.43,
+          "low": 5.23,
+          "close": 5.43
+        },
+        {
+          "date": "2026-09-25",
+          "open": 5.42,
+          "high": 5.52,
+          "low": 5.384,
+          "close": 5.42
+        },
+        {
+          "date": "2026-09-28",
+          "open": 5.29,
+          "high": 5.391,
+          "low": 5.19,
+          "close": 5.22
+        },
+        {
+          "date": "2026-09-29",
+          "open": 5.3,
+          "high": 5.35,
+          "low": 5.175,
+          "close": 5.34
+        },
+        {
+          "date": "2026-09-30",
+          "open": 5.44,
+          "high": 5.69,
+          "low": 5.39,
+          "close": 5.4
+        },
+        {
+          "date": "2026-10-01",
+          "open": 5.48,
+          "high": 5.66,
+          "low": 5.345,
+          "close": 5.65
+        },
+        {
+          "date": "2026-10-02",
+          "open": 5.72,
+          "high": 5.79,
+          "low": 5.47,
+          "close": 5.58
+        },
+        {
+          "date": "2026-10-05",
+          "open": 5.59,
+          "high": 5.76,
+          "low": 5.56,
+          "close": 5.61
+        },
+        {
+          "date": "2026-10-06",
+          "open": 5.7,
+          "high": 5.88,
+          "low": 5.61,
+          "close": 5.78
+        },
+        {
+          "date": "2026-10-07",
+          "open": 5.7,
+          "high": 5.9,
+          "low": 5.645,
+          "close": 5.81
+        },
+        {
+          "date": "2026-10-08",
+          "open": 5.75,
+          "high": 5.88,
+          "low": 5.73,
+          "close": 5.86
+        },
+        {
+          "date": "2026-10-09",
+          "open": 5.995,
+          "high": 6.35,
+          "low": 5.945,
+          "close": 6.23
+        },
+        {
+          "date": "2026-10-12",
+          "open": 6.38,
+          "high": 6.635,
+          "low": 6.27,
+          "close": 6.53
+        },
+        {
+          "date": "2026-10-13",
+          "open": 6.48,
+          "high": 6.85,
+          "low": 6.46,
+          "close": 6.49
+        }
+      ],
+      "current_price": 6.49,
+      "predicted_next_close": 6.5172,
       "predicted_direction": "up",
       "all_model_metrics": {
         "XGBoost": {
-          "rmse": 0.4926,
-          "mae": 0.4171,
-          "r2": 0.5203,
-          "mape": 7.7169
+          "rmse": 0.2172,
+          "mae": 0.1651,
+          "r2": 0.5111,
+          "mape": 2.889
         },
         "RandomForest": {
-          "rmse": 0.4224,
-          "mae": 0.3586,
-          "r2": 0.6472,
-          "mape": 6.7641
+          "rmse": 0.2247,
+          "mae": 0.1714,
+          "r2": 0.4764,
+          "mape": 3.0172
         },
         "GradientBoosting": {
-          "rmse": 0.4277,
-          "mae": 0.3622,
-          "r2": 0.6383,
-          "mape": 6.8118
+          "rmse": 0.2127,
+          "mae": 0.1536,
+          "r2": 0.5309,
+          "mape": 2.6693
         },
         "Ridge": {
-          "rmse": 0.3066,
-          "mae": 0.2611,
-          "r2": 0.8142,
-          "mape": 4.9917
+          "rmse": 0.1928,
+          "mae": 0.1558,
+          "r2": 0.6148,
+          "mape": 2.7894
         },
         "SVR": {
-          "rmse": 1.3405,
-          "mae": 1.2554,
-          "r2": -2.5522,
-          "mape": 24.0267
+          "rmse": 0.3288,
+          "mae": 0.2599,
+          "r2": -0.1203,
+          "mape": 4.5534
         }
       },
       "best_model_metrics": {
-        "rmse": 0.3066,
-        "mae": 0.2611,
-        "r2": 0.8142,
-        "mape": 4.9917
+        "rmse": 0.1928,
+        "mae": 0.1558,
+        "r2": 0.6148,
+        "mape": 2.7894
       },
       "train_rows": 160,
-      "test_rows": 41,
+      "test_rows": 40,
       "feature_columns": [
         "ema_20",
         "sma_50",
@@ -1938,55 +4391,270 @@
         "Close",
         "Volume"
       ],
-      "trained_at": "2026-05-14T20:15:24.087018+00:00"
+      "trained_at": "2026-10-15T07:44:48.225414+00:00"
     },
     "SPOT": {
       "ticker": "SPOT",
-      "best_model": "Ridge",
-      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2\\models\\SPOT_best_model.pkl",
-      "current_price": 430.9,
-      "predicted_next_close": 437.825,
-      "predicted_direction": "up",
+      "best_model": "RandomForest",
+      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2_updated\\models\\SPOT_best_model.pkl",
+      "as_of_date": "2026-10-13",
+      "predicted_for_date": "2026-10-14",
+      "actual_next_close": 523.96,
+      "price_history": [
+        {
+          "date": "2026-09-01",
+          "open": 540.0,
+          "high": 553.0,
+          "low": 538.28,
+          "close": 544.15
+        },
+        {
+          "date": "2026-09-02",
+          "open": 542.27,
+          "high": 564.82,
+          "low": 540.98,
+          "close": 559.36
+        },
+        {
+          "date": "2026-09-03",
+          "open": 565.0,
+          "high": 576.0,
+          "low": 558.05,
+          "close": 560.11
+        },
+        {
+          "date": "2026-09-04",
+          "open": 556.49,
+          "high": 563.645,
+          "low": 540.81,
+          "close": 542.43
+        },
+        {
+          "date": "2026-09-08",
+          "open": 536.79,
+          "high": 538.867,
+          "low": 526.36,
+          "close": 528.64
+        },
+        {
+          "date": "2026-09-09",
+          "open": 526.69,
+          "high": 533.8,
+          "low": 521.581,
+          "close": 523.0
+        },
+        {
+          "date": "2026-09-10",
+          "open": 512.505,
+          "high": 530.37,
+          "low": 507.83,
+          "close": 521.73
+        },
+        {
+          "date": "2026-09-11",
+          "open": 527.52,
+          "high": 531.315,
+          "low": 523.1,
+          "close": 525.75
+        },
+        {
+          "date": "2026-09-14",
+          "open": 540.46,
+          "high": 560.99,
+          "low": 535.19,
+          "close": 556.31
+        },
+        {
+          "date": "2026-09-15",
+          "open": 548.96,
+          "high": 561.82,
+          "low": 548.505,
+          "close": 558.26
+        },
+        {
+          "date": "2026-09-16",
+          "open": 559.9,
+          "high": 564.89,
+          "low": 546.01,
+          "close": 547.43
+        },
+        {
+          "date": "2026-09-17",
+          "open": 550.57,
+          "high": 553.77,
+          "low": 528.71,
+          "close": 528.84
+        },
+        {
+          "date": "2026-09-18",
+          "open": 527.43,
+          "high": 527.57,
+          "low": 508.5,
+          "close": 509.45
+        },
+        {
+          "date": "2026-09-21",
+          "open": 508.9,
+          "high": 520.49,
+          "low": 503.44,
+          "close": 516.77
+        },
+        {
+          "date": "2026-09-22",
+          "open": 520.385,
+          "high": 523.05,
+          "low": 495.59,
+          "close": 501.3
+        },
+        {
+          "date": "2026-09-23",
+          "open": 501.25,
+          "high": 513.3,
+          "low": 488.97,
+          "close": 510.4
+        },
+        {
+          "date": "2026-09-24",
+          "open": 504.99,
+          "high": 512.46,
+          "low": 503.17,
+          "close": 511.38
+        },
+        {
+          "date": "2026-09-25",
+          "open": 509.75,
+          "high": 514.6,
+          "low": 506.0,
+          "close": 510.01
+        },
+        {
+          "date": "2026-09-28",
+          "open": 507.03,
+          "high": 507.03,
+          "low": 497.0,
+          "close": 497.51
+        },
+        {
+          "date": "2026-09-29",
+          "open": 499.74,
+          "high": 501.0,
+          "low": 488.52,
+          "close": 493.66
+        },
+        {
+          "date": "2026-09-30",
+          "open": 491.4,
+          "high": 497.0,
+          "low": 486.64,
+          "close": 487.38
+        },
+        {
+          "date": "2026-10-01",
+          "open": 488.03,
+          "high": 496.33,
+          "low": 484.88,
+          "close": 491.4
+        },
+        {
+          "date": "2026-10-02",
+          "open": 491.2,
+          "high": 492.505,
+          "low": 470.51,
+          "close": 472.89
+        },
+        {
+          "date": "2026-10-05",
+          "open": 473.01,
+          "high": 484.2,
+          "low": 470.25,
+          "close": 483.05
+        },
+        {
+          "date": "2026-10-06",
+          "open": 481.01,
+          "high": 492.07,
+          "low": 478.0,
+          "close": 488.13
+        },
+        {
+          "date": "2026-10-07",
+          "open": 487.55,
+          "high": 518.11,
+          "low": 485.06,
+          "close": 512.92
+        },
+        {
+          "date": "2026-10-08",
+          "open": 514.25,
+          "high": 528.39,
+          "low": 512.79,
+          "close": 526.42
+        },
+        {
+          "date": "2026-10-09",
+          "open": 530.0,
+          "high": 540.82,
+          "low": 522.94,
+          "close": 529.14
+        },
+        {
+          "date": "2026-10-12",
+          "open": 530.0,
+          "high": 535.0,
+          "low": 525.2,
+          "close": 528.8
+        },
+        {
+          "date": "2026-10-13",
+          "open": 529.61,
+          "high": 537.9,
+          "low": 524.88,
+          "close": 527.45
+        }
+      ],
+      "current_price": 527.45,
+      "predicted_next_close": 521.5257,
+      "predicted_direction": "down",
       "all_model_metrics": {
         "XGBoost": {
-          "rmse": 34.6141,
-          "mae": 24.0461,
-          "r2": 0.0737,
-          "mape": 5.4033
+          "rmse": 20.3445,
+          "mae": 16.3161,
+          "r2": 0.1799,
+          "mape": 3.0693
         },
         "RandomForest": {
-          "rmse": 28.3017,
-          "mae": 20.5656,
-          "r2": 0.3807,
-          "mape": 4.5732
+          "rmse": 16.1505,
+          "mae": 12.9942,
+          "r2": 0.4832,
+          "mape": 2.4594
         },
         "GradientBoosting": {
-          "rmse": 30.8406,
-          "mae": 22.5109,
-          "r2": 0.2646,
-          "mape": 5.0061
+          "rmse": 21.6821,
+          "mae": 17.2838,
+          "r2": 0.0685,
+          "mape": 3.2576
         },
         "Ridge": {
-          "rmse": 17.3862,
-          "mae": 13.0894,
-          "r2": 0.7663,
-          "mape": 2.7574
+          "rmse": 16.8028,
+          "mae": 13.8611,
+          "r2": 0.4406,
+          "mape": 2.6167
         },
         "SVR": {
-          "rmse": 52.566,
-          "mae": 41.2284,
-          "r2": -1.1363,
-          "mape": 9.1833
+          "rmse": 25.1681,
+          "mae": 21.3156,
+          "r2": -0.255,
+          "mape": 4.0009
         }
       },
       "best_model_metrics": {
-        "rmse": 17.3862,
-        "mae": 13.0894,
-        "r2": 0.7663,
-        "mape": 2.7574
+        "rmse": 16.1505,
+        "mae": 12.9942,
+        "r2": 0.4832,
+        "mape": 2.4594
       },
       "train_rows": 160,
-      "test_rows": 41,
+      "test_rows": 40,
       "feature_columns": [
         "ema_20",
         "sma_50",
@@ -2014,55 +4682,270 @@
         "Close",
         "Volume"
       ],
-      "trained_at": "2026-05-14T20:15:26.011351+00:00"
+      "trained_at": "2026-10-15T07:44:50.641750+00:00"
     },
     "SPY": {
       "ticker": "SPY",
       "best_model": "Ridge",
-      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2\\models\\SPY_best_model.pkl",
-      "current_price": 742.31,
-      "predicted_next_close": 731.8321,
+      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2_updated\\models\\SPY_best_model.pkl",
+      "as_of_date": "2026-10-13",
+      "predicted_for_date": "2026-10-14",
+      "actual_next_close": 769.6,
+      "price_history": [
+        {
+          "date": "2026-09-01",
+          "open": 760.1225,
+          "high": 762.7759,
+          "low": 757.5987,
+          "close": 759.8931
+        },
+        {
+          "date": "2026-09-02",
+          "open": 760.5614,
+          "high": 764.5315,
+          "low": 759.8432,
+          "close": 763.2646
+        },
+        {
+          "date": "2026-09-03",
+          "open": 765.9979,
+          "high": 772.1127,
+          "low": 765.549,
+          "close": 771.2548
+        },
+        {
+          "date": "2026-09-04",
+          "open": 770.0977,
+          "high": 770.9556,
+          "low": 767.0952,
+          "close": 768.2822
+        },
+        {
+          "date": "2026-09-08",
+          "open": 767.165,
+          "high": 767.7934,
+          "low": 763.2447,
+          "close": 764.0627
+        },
+        {
+          "date": "2026-09-09",
+          "open": 762.1874,
+          "high": 762.5764,
+          "low": 759.0551,
+          "close": 760.5115
+        },
+        {
+          "date": "2026-09-10",
+          "open": 756.1523,
+          "high": 758.2271,
+          "low": 754.7658,
+          "close": 755.9528
+        },
+        {
+          "date": "2026-09-11",
+          "open": 762.8257,
+          "high": 764.4816,
+          "low": 761.7085,
+          "close": 762.3968
+        },
+        {
+          "date": "2026-09-14",
+          "open": 757.1199,
+          "high": 761.6287,
+          "low": 756.0525,
+          "close": 758.9952
+        },
+        {
+          "date": "2026-09-15",
+          "open": 758.2371,
+          "high": 758.4665,
+          "low": 754.277,
+          "close": 755.5139
+        },
+        {
+          "date": "2026-09-16",
+          "open": 757.6187,
+          "high": 759.7833,
+          "low": 747.7432,
+          "close": 752.1822
+        },
+        {
+          "date": "2026-09-17",
+          "open": 761.2597,
+          "high": 761.6786,
+          "low": 758.0776,
+          "close": 760.711
+        },
+        {
+          "date": "2026-09-18",
+          "open": 761.31,
+          "high": 762.0,
+          "low": 757.97,
+          "close": 761.69
+        },
+        {
+          "date": "2026-09-21",
+          "open": 766.25,
+          "high": 774.89,
+          "low": 766.03,
+          "close": 773.5
+        },
+        {
+          "date": "2026-09-22",
+          "open": 774.03,
+          "high": 775.14,
+          "low": 772.57,
+          "close": 773.38
+        },
+        {
+          "date": "2026-09-23",
+          "open": 772.79,
+          "high": 773.05,
+          "low": 766.5,
+          "close": 767.81
+        },
+        {
+          "date": "2026-09-24",
+          "open": 764.07,
+          "high": 768.95,
+          "low": 763.25,
+          "close": 767.18
+        },
+        {
+          "date": "2026-09-25",
+          "open": 768.78,
+          "high": 772.28,
+          "low": 766.29,
+          "close": 771.35
+        },
+        {
+          "date": "2026-09-28",
+          "open": 768.35,
+          "high": 769.54,
+          "low": 763.72,
+          "close": 765.61
+        },
+        {
+          "date": "2026-09-29",
+          "open": 766.83,
+          "high": 766.98,
+          "low": 762.35,
+          "close": 764.2
+        },
+        {
+          "date": "2026-09-30",
+          "open": 766.45,
+          "high": 769.41,
+          "low": 762.18,
+          "close": 762.63
+        },
+        {
+          "date": "2026-10-01",
+          "open": 764.36,
+          "high": 765.65,
+          "low": 758.79,
+          "close": 763.99
+        },
+        {
+          "date": "2026-10-02",
+          "open": 770.58,
+          "high": 772.65,
+          "low": 767.15,
+          "close": 769.64
+        },
+        {
+          "date": "2026-10-05",
+          "open": 769.69,
+          "high": 776.61,
+          "low": 769.63,
+          "close": 774.83
+        },
+        {
+          "date": "2026-10-06",
+          "open": 778.15,
+          "high": 781.62,
+          "low": 777.96,
+          "close": 779.09
+        },
+        {
+          "date": "2026-10-07",
+          "open": 775.77,
+          "high": 779.1,
+          "low": 773.61,
+          "close": 777.22
+        },
+        {
+          "date": "2026-10-08",
+          "open": 774.86,
+          "high": 777.09,
+          "low": 770.44,
+          "close": 773.93
+        },
+        {
+          "date": "2026-10-09",
+          "open": 776.24,
+          "high": 779.42,
+          "low": 775.14,
+          "close": 778.57
+        },
+        {
+          "date": "2026-10-12",
+          "open": 778.78,
+          "high": 779.4,
+          "low": 777.05,
+          "close": 778.1
+        },
+        {
+          "date": "2026-10-13",
+          "open": 777.34,
+          "high": 778.75,
+          "low": 775.95,
+          "close": 778.01
+        }
+      ],
+      "current_price": 778.01,
+      "predicted_next_close": 775.5317,
       "predicted_direction": "down",
       "all_model_metrics": {
         "XGBoost": {
-          "rmse": 32.3555,
-          "mae": 26.1797,
-          "r2": 0.077,
-          "mape": 3.6819
+          "rmse": 5.886,
+          "mae": 4.9343,
+          "r2": 0.2063,
+          "mape": 0.643
         },
         "RandomForest": {
-          "rmse": 28.4637,
-          "mae": 22.2842,
-          "r2": 0.2857,
-          "mape": 3.1227
+          "rmse": 5.9894,
+          "mae": 5.1176,
+          "r2": 0.1782,
+          "mape": 0.6675
         },
         "GradientBoosting": {
-          "rmse": 31.3121,
-          "mae": 24.7441,
-          "r2": 0.1356,
-          "mape": 3.4654
+          "rmse": 7.0188,
+          "mae": 5.5331,
+          "r2": -0.1286,
+          "mape": 0.7182
         },
         "Ridge": {
-          "rmse": 10.2905,
-          "mae": 9.0366,
-          "r2": 0.9066,
-          "mape": 1.3046
+          "rmse": 4.3029,
+          "mae": 3.6231,
+          "r2": 0.5758,
+          "mape": 0.4726
         },
         "SVR": {
-          "rmse": 46.4062,
-          "mae": 39.1502,
-          "r2": -0.8987,
-          "mape": 5.5088
+          "rmse": 22.1752,
+          "mae": 20.9885,
+          "r2": -10.2654,
+          "mape": 2.7374
         }
       },
       "best_model_metrics": {
-        "rmse": 10.2905,
-        "mae": 9.0366,
-        "r2": 0.9066,
-        "mape": 1.3046
+        "rmse": 4.3029,
+        "mae": 3.6231,
+        "r2": 0.5758,
+        "mape": 0.4726
       },
       "train_rows": 160,
-      "test_rows": 41,
+      "test_rows": 40,
       "feature_columns": [
         "ema_20",
         "sma_50",
@@ -2090,55 +4973,270 @@
         "Close",
         "Volume"
       ],
-      "trained_at": "2026-05-14T20:15:27.732232+00:00"
+      "trained_at": "2026-10-15T07:44:52.897943+00:00"
     },
     "TSLA": {
       "ticker": "TSLA",
       "best_model": "Ridge",
-      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2\\models\\TSLA_best_model.pkl",
-      "current_price": 445.27,
-      "predicted_next_close": 440.4697,
+      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2_updated\\models\\TSLA_best_model.pkl",
+      "as_of_date": "2026-10-13",
+      "predicted_for_date": "2026-10-14",
+      "actual_next_close": 367.16,
+      "price_history": [
+        {
+          "date": "2026-09-01",
+          "open": 360.9,
+          "high": 362.7,
+          "low": 352.96,
+          "close": 356.09
+        },
+        {
+          "date": "2026-09-02",
+          "open": 360.41,
+          "high": 360.62,
+          "low": 349.92,
+          "close": 357.01
+        },
+        {
+          "date": "2026-09-03",
+          "open": 365.82,
+          "high": 384.04,
+          "low": 365.82,
+          "close": 376.37
+        },
+        {
+          "date": "2026-09-04",
+          "open": 362.07,
+          "high": 364.69,
+          "low": 351.32,
+          "close": 354.08
+        },
+        {
+          "date": "2026-09-08",
+          "open": 357.1,
+          "high": 370.0,
+          "low": 355.75,
+          "close": 368.16
+        },
+        {
+          "date": "2026-09-09",
+          "open": 368.25,
+          "high": 375.44,
+          "low": 366.0,
+          "close": 367.81
+        },
+        {
+          "date": "2026-09-10",
+          "open": 360.6,
+          "high": 369.21,
+          "low": 357.68,
+          "close": 363.56
+        },
+        {
+          "date": "2026-09-11",
+          "open": 364.2,
+          "high": 368.66,
+          "low": 361.6,
+          "close": 365.44
+        },
+        {
+          "date": "2026-09-14",
+          "open": 359.78,
+          "high": 367.73,
+          "low": 357.04,
+          "close": 358.97
+        },
+        {
+          "date": "2026-09-15",
+          "open": 358.75,
+          "high": 362.39,
+          "low": 354.05,
+          "close": 356.58
+        },
+        {
+          "date": "2026-09-16",
+          "open": 357.93,
+          "high": 365.1,
+          "low": 354.89,
+          "close": 358.08
+        },
+        {
+          "date": "2026-09-17",
+          "open": 367.48,
+          "high": 374.12,
+          "low": 363.22,
+          "close": 366.2
+        },
+        {
+          "date": "2026-09-18",
+          "open": 369.0,
+          "high": 370.9,
+          "low": 360.75,
+          "close": 364.27
+        },
+        {
+          "date": "2026-09-21",
+          "open": 371.64,
+          "high": 378.36,
+          "low": 371.07,
+          "close": 375.3
+        },
+        {
+          "date": "2026-09-22",
+          "open": 379.07,
+          "high": 380.42,
+          "low": 372.88,
+          "close": 378.9
+        },
+        {
+          "date": "2026-09-23",
+          "open": 380.1,
+          "high": 386.7,
+          "low": 377.58,
+          "close": 380.12
+        },
+        {
+          "date": "2026-09-24",
+          "open": 377.35,
+          "high": 383.33,
+          "low": 375.7,
+          "close": 377.94
+        },
+        {
+          "date": "2026-09-25",
+          "open": 384.62,
+          "high": 386.83,
+          "low": 367.67,
+          "close": 372.11
+        },
+        {
+          "date": "2026-09-28",
+          "open": 368.06,
+          "high": 369.43,
+          "low": 356.8,
+          "close": 357.45
+        },
+        {
+          "date": "2026-09-29",
+          "open": 358.4,
+          "high": 358.74,
+          "low": 351.67,
+          "close": 352.84
+        },
+        {
+          "date": "2026-09-30",
+          "open": 352.11,
+          "high": 355.22,
+          "low": 345.88,
+          "close": 354.81
+        },
+        {
+          "date": "2026-10-01",
+          "open": 356.81,
+          "high": 359.79,
+          "low": 353.8,
+          "close": 354.11
+        },
+        {
+          "date": "2026-10-02",
+          "open": 360.08,
+          "high": 374.6,
+          "low": 359.41,
+          "close": 370.59
+        },
+        {
+          "date": "2026-10-05",
+          "open": 369.0,
+          "high": 381.59,
+          "low": 364.91,
+          "close": 378.73
+        },
+        {
+          "date": "2026-10-06",
+          "open": 381.98,
+          "high": 383.33,
+          "low": 378.52,
+          "close": 380.68
+        },
+        {
+          "date": "2026-10-07",
+          "open": 378.45,
+          "high": 382.35,
+          "low": 374.43,
+          "close": 377.81
+        },
+        {
+          "date": "2026-10-08",
+          "open": 374.12,
+          "high": 375.96,
+          "low": 368.03,
+          "close": 375.0
+        },
+        {
+          "date": "2026-10-09",
+          "open": 382.38,
+          "high": 388.56,
+          "low": 379.71,
+          "close": 382.7
+        },
+        {
+          "date": "2026-10-12",
+          "open": 382.61,
+          "high": 382.7,
+          "low": 377.58,
+          "close": 378.03
+        },
+        {
+          "date": "2026-10-13",
+          "open": 372.33,
+          "high": 377.05,
+          "low": 371.3,
+          "close": 375.23
+        }
+      ],
+      "current_price": 375.23,
+      "predicted_next_close": 370.5997,
       "predicted_direction": "down",
       "all_model_metrics": {
         "XGBoost": {
-          "rmse": 30.2702,
-          "mae": 24.4964,
-          "r2": -0.3405,
-          "mape": 6.6791
+          "rmse": 15.1926,
+          "mae": 12.729,
+          "r2": -0.6505,
+          "mape": 3.5427
         },
         "RandomForest": {
-          "rmse": 24.3465,
-          "mae": 20.9306,
-          "r2": 0.1328,
-          "mape": 5.6421
+          "rmse": 11.2108,
+          "mae": 9.3304,
+          "r2": 0.1013,
+          "mape": 2.5873
         },
         "GradientBoosting": {
-          "rmse": 24.8647,
-          "mae": 21.4377,
-          "r2": 0.0955,
-          "mape": 5.7883
+          "rmse": 13.864,
+          "mae": 11.4991,
+          "r2": -0.3745,
+          "mape": 3.1796
         },
         "Ridge": {
-          "rmse": 12.5681,
-          "mae": 9.8667,
-          "r2": 0.7689,
-          "mape": 2.5665
+          "rmse": 11.1761,
+          "mae": 8.1109,
+          "r2": 0.1068,
+          "mape": 2.2203
         },
         "SVR": {
-          "rmse": 14.4722,
-          "mae": 11.8218,
-          "r2": 0.6936,
-          "mape": 3.1448
+          "rmse": 19.5714,
+          "mae": 17.5691,
+          "r2": -1.7391,
+          "mape": 4.8464
         }
       },
       "best_model_metrics": {
-        "rmse": 12.5681,
-        "mae": 9.8667,
-        "r2": 0.7689,
-        "mape": 2.5665
+        "rmse": 11.1761,
+        "mae": 8.1109,
+        "r2": 0.1068,
+        "mape": 2.2203
       },
       "train_rows": 160,
-      "test_rows": 41,
+      "test_rows": 40,
       "feature_columns": [
         "ema_20",
         "sma_50",
@@ -2166,55 +5264,270 @@
         "Close",
         "Volume"
       ],
-      "trained_at": "2026-05-14T20:15:30.858433+00:00"
+      "trained_at": "2026-10-15T07:44:55.147130+00:00"
     },
     "UBER": {
       "ticker": "UBER",
       "best_model": "Ridge",
-      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2\\models\\UBER_best_model.pkl",
-      "current_price": 74.7,
-      "predicted_next_close": 74.6323,
-      "predicted_direction": "down",
+      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2_updated\\models\\UBER_best_model.pkl",
+      "as_of_date": "2026-10-13",
+      "predicted_for_date": "2026-10-14",
+      "actual_next_close": 69.29,
+      "price_history": [
+        {
+          "date": "2026-09-01",
+          "open": 75.27,
+          "high": 76.11,
+          "low": 74.62,
+          "close": 75.24
+        },
+        {
+          "date": "2026-09-02",
+          "open": 76.05,
+          "high": 77.24,
+          "low": 75.36,
+          "close": 76.45
+        },
+        {
+          "date": "2026-09-03",
+          "open": 77.335,
+          "high": 78.354,
+          "low": 75.19,
+          "close": 75.96
+        },
+        {
+          "date": "2026-09-04",
+          "open": 76.15,
+          "high": 76.86,
+          "low": 75.21,
+          "close": 75.76
+        },
+        {
+          "date": "2026-09-08",
+          "open": 75.615,
+          "high": 75.615,
+          "low": 72.715,
+          "close": 73.13
+        },
+        {
+          "date": "2026-09-09",
+          "open": 73.05,
+          "high": 73.101,
+          "low": 71.0,
+          "close": 71.08
+        },
+        {
+          "date": "2026-09-10",
+          "open": 70.38,
+          "high": 73.48,
+          "low": 69.24,
+          "close": 72.56
+        },
+        {
+          "date": "2026-09-11",
+          "open": 72.99,
+          "high": 73.055,
+          "low": 71.035,
+          "close": 71.67
+        },
+        {
+          "date": "2026-09-14",
+          "open": 71.975,
+          "high": 72.803,
+          "low": 71.26,
+          "close": 72.63
+        },
+        {
+          "date": "2026-09-15",
+          "open": 72.325,
+          "high": 72.42,
+          "low": 71.31,
+          "close": 71.43
+        },
+        {
+          "date": "2026-09-16",
+          "open": 71.32,
+          "high": 71.96,
+          "low": 70.571,
+          "close": 70.97
+        },
+        {
+          "date": "2026-09-17",
+          "open": 71.6,
+          "high": 71.641,
+          "low": 70.24,
+          "close": 70.87
+        },
+        {
+          "date": "2026-09-18",
+          "open": 70.895,
+          "high": 71.0,
+          "low": 70.06,
+          "close": 70.5
+        },
+        {
+          "date": "2026-09-21",
+          "open": 70.82,
+          "high": 71.39,
+          "low": 70.111,
+          "close": 70.84
+        },
+        {
+          "date": "2026-09-22",
+          "open": 71.65,
+          "high": 71.9,
+          "low": 69.54,
+          "close": 69.89
+        },
+        {
+          "date": "2026-09-23",
+          "open": 69.56,
+          "high": 70.04,
+          "low": 68.55,
+          "close": 69.42
+        },
+        {
+          "date": "2026-09-24",
+          "open": 69.45,
+          "high": 70.08,
+          "low": 68.925,
+          "close": 69.22
+        },
+        {
+          "date": "2026-09-25",
+          "open": 69.27,
+          "high": 69.67,
+          "low": 68.796,
+          "close": 69.62
+        },
+        {
+          "date": "2026-09-28",
+          "open": 69.36,
+          "high": 69.68,
+          "low": 67.73,
+          "close": 68.16
+        },
+        {
+          "date": "2026-09-29",
+          "open": 68.47,
+          "high": 69.89,
+          "low": 68.4,
+          "close": 69.36
+        },
+        {
+          "date": "2026-09-30",
+          "open": 69.9,
+          "high": 69.97,
+          "low": 68.5,
+          "close": 68.51
+        },
+        {
+          "date": "2026-10-01",
+          "open": 68.54,
+          "high": 68.91,
+          "low": 67.32,
+          "close": 67.88
+        },
+        {
+          "date": "2026-10-02",
+          "open": 68.24,
+          "high": 68.47,
+          "low": 67.22,
+          "close": 68.11
+        },
+        {
+          "date": "2026-10-05",
+          "open": 68.4,
+          "high": 70.01,
+          "low": 68.38,
+          "close": 69.48
+        },
+        {
+          "date": "2026-10-06",
+          "open": 69.56,
+          "high": 69.94,
+          "low": 68.76,
+          "close": 69.08
+        },
+        {
+          "date": "2026-10-07",
+          "open": 68.85,
+          "high": 69.24,
+          "low": 68.265,
+          "close": 68.45
+        },
+        {
+          "date": "2026-10-08",
+          "open": 68.175,
+          "high": 70.32,
+          "low": 68.0,
+          "close": 70.24
+        },
+        {
+          "date": "2026-10-09",
+          "open": 70.24,
+          "high": 72.08,
+          "low": 70.2,
+          "close": 71.51
+        },
+        {
+          "date": "2026-10-12",
+          "open": 71.16,
+          "high": 71.81,
+          "low": 70.04,
+          "close": 71.5
+        },
+        {
+          "date": "2026-10-13",
+          "open": 70.95,
+          "high": 71.63,
+          "low": 70.44,
+          "close": 71.32
+        }
+      ],
+      "current_price": 71.32,
+      "predicted_next_close": 72.2845,
+      "predicted_direction": "up",
       "all_model_metrics": {
         "XGBoost": {
-          "rmse": 2.8848,
-          "mae": 2.3994,
-          "r2": -0.5552,
-          "mape": 3.2966
+          "rmse": 2.7288,
+          "mae": 2.3175,
+          "r2": 0.4586,
+          "mape": 3.2012
         },
         "RandomForest": {
-          "rmse": 2.2754,
-          "mae": 1.8297,
-          "r2": 0.0325,
-          "mape": 2.5105
+          "rmse": 2.3096,
+          "mae": 1.8732,
+          "r2": 0.6122,
+          "mape": 2.5747
         },
         "GradientBoosting": {
-          "rmse": 2.5061,
-          "mae": 2.0581,
-          "r2": -0.1737,
-          "mape": 2.8216
+          "rmse": 2.6803,
+          "mae": 2.2552,
+          "r2": 0.4777,
+          "mape": 3.1308
         },
         "Ridge": {
-          "rmse": 1.8867,
-          "mae": 1.4674,
-          "r2": 0.3347,
-          "mape": 1.9652
+          "rmse": 1.4316,
+          "mae": 1.1443,
+          "r2": 0.851,
+          "mape": 1.5549
         },
         "SVR": {
-          "rmse": 4.5765,
-          "mae": 3.663,
-          "r2": -2.9141,
-          "mape": 5.0271
+          "rmse": 3.8317,
+          "mae": 3.3615,
+          "r2": -0.0674,
+          "mape": 4.6528
         }
       },
       "best_model_metrics": {
-        "rmse": 1.8867,
-        "mae": 1.4674,
-        "r2": 0.3347,
-        "mape": 1.9652
+        "rmse": 1.4316,
+        "mae": 1.1443,
+        "r2": 0.851,
+        "mape": 1.5549
       },
       "train_rows": 160,
-      "test_rows": 41,
+      "test_rows": 40,
       "feature_columns": [
         "ema_20",
         "sma_50",
@@ -2242,55 +5555,270 @@
         "Close",
         "Volume"
       ],
-      "trained_at": "2026-05-14T20:15:32.752088+00:00"
+      "trained_at": "2026-10-15T07:44:57.275656+00:00"
     },
     "UNH": {
       "ticker": "UNH",
       "best_model": "Ridge",
-      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2\\models\\UNH_best_model.pkl",
-      "current_price": 401.16,
-      "predicted_next_close": 390.8522,
-      "predicted_direction": "down",
+      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2_updated\\models\\UNH_best_model.pkl",
+      "as_of_date": "2026-10-13",
+      "predicted_for_date": "2026-10-14",
+      "actual_next_close": 395.62,
+      "price_history": [
+        {
+          "date": "2026-09-01",
+          "open": 389.6805,
+          "high": 397.1545,
+          "low": 389.3823,
+          "close": 393.8747
+        },
+        {
+          "date": "2026-09-02",
+          "open": 396.8265,
+          "high": 398.6851,
+          "low": 394.0834,
+          "close": 397.2141
+        },
+        {
+          "date": "2026-09-03",
+          "open": 397.5719,
+          "high": 402.6805,
+          "low": 392.8808,
+          "close": 398.4863
+        },
+        {
+          "date": "2026-09-04",
+          "open": 394.6201,
+          "high": 399.7684,
+          "low": 392.7814,
+          "close": 394.7096
+        },
+        {
+          "date": "2026-09-08",
+          "open": 389.9986,
+          "high": 401.4183,
+          "low": 388.0506,
+          "close": 398.3869
+        },
+        {
+          "date": "2026-09-09",
+          "open": 402.6904,
+          "high": 404.0421,
+          "low": 375.7662,
+          "close": 390.6545
+        },
+        {
+          "date": "2026-09-10",
+          "open": 393.5765,
+          "high": 396.8265,
+          "low": 385.2279,
+          "close": 385.9037
+        },
+        {
+          "date": "2026-09-11",
+          "open": 388.0307,
+          "high": 389.3326,
+          "low": 373.5995,
+          "close": 376.77
+        },
+        {
+          "date": "2026-09-14",
+          "open": 381.44,
+          "high": 386.46,
+          "low": 379.28,
+          "close": 383.55
+        },
+        {
+          "date": "2026-09-15",
+          "open": 383.55,
+          "high": 383.8,
+          "low": 375.5,
+          "close": 375.93
+        },
+        {
+          "date": "2026-09-16",
+          "open": 375.9,
+          "high": 380.22,
+          "low": 373.63,
+          "close": 375.26
+        },
+        {
+          "date": "2026-09-17",
+          "open": 376.45,
+          "high": 380.5,
+          "low": 374.2,
+          "close": 375.21
+        },
+        {
+          "date": "2026-09-18",
+          "open": 375.29,
+          "high": 378.49,
+          "low": 372.42,
+          "close": 376.9
+        },
+        {
+          "date": "2026-09-21",
+          "open": 377.87,
+          "high": 378.95,
+          "low": 373.82,
+          "close": 377.56
+        },
+        {
+          "date": "2026-09-22",
+          "open": 381.39,
+          "high": 381.39,
+          "low": 372.41,
+          "close": 372.95
+        },
+        {
+          "date": "2026-09-23",
+          "open": 370.89,
+          "high": 372.61,
+          "low": 366.0,
+          "close": 371.29
+        },
+        {
+          "date": "2026-09-24",
+          "open": 371.92,
+          "high": 375.28,
+          "low": 368.5,
+          "close": 375.01
+        },
+        {
+          "date": "2026-09-25",
+          "open": 375.95,
+          "high": 379.17,
+          "low": 371.17,
+          "close": 376.59
+        },
+        {
+          "date": "2026-09-28",
+          "open": 376.36,
+          "high": 380.98,
+          "low": 374.56,
+          "close": 377.83
+        },
+        {
+          "date": "2026-09-29",
+          "open": 374.88,
+          "high": 376.59,
+          "low": 371.33,
+          "close": 374.94
+        },
+        {
+          "date": "2026-09-30",
+          "open": 374.93,
+          "high": 374.93,
+          "low": 365.72,
+          "close": 367.08
+        },
+        {
+          "date": "2026-10-01",
+          "open": 367.99,
+          "high": 371.86,
+          "low": 362.6,
+          "close": 365.2
+        },
+        {
+          "date": "2026-10-02",
+          "open": 365.14,
+          "high": 372.68,
+          "low": 364.47,
+          "close": 371.9
+        },
+        {
+          "date": "2026-10-05",
+          "open": 372.33,
+          "high": 379.14,
+          "low": 368.05,
+          "close": 378.58
+        },
+        {
+          "date": "2026-10-06",
+          "open": 379.03,
+          "high": 380.41,
+          "low": 373.7,
+          "close": 376.32
+        },
+        {
+          "date": "2026-10-07",
+          "open": 375.92,
+          "high": 383.48,
+          "low": 372.01,
+          "close": 375.98
+        },
+        {
+          "date": "2026-10-08",
+          "open": 375.38,
+          "high": 376.45,
+          "low": 368.5,
+          "close": 370.95
+        },
+        {
+          "date": "2026-10-09",
+          "open": 373.94,
+          "high": 387.52,
+          "low": 373.02,
+          "close": 379.3
+        },
+        {
+          "date": "2026-10-12",
+          "open": 382.98,
+          "high": 382.98,
+          "low": 373.67,
+          "close": 378.52
+        },
+        {
+          "date": "2026-10-13",
+          "open": 397.63,
+          "high": 399.88,
+          "low": 372.8,
+          "close": 377.76
+        }
+      ],
+      "current_price": 377.76,
+      "predicted_next_close": 379.6887,
+      "predicted_direction": "up",
       "all_model_metrics": {
         "XGBoost": {
-          "rmse": 22.5677,
-          "mae": 16.8879,
-          "r2": 0.7395,
-          "mape": 4.802
+          "rmse": 8.6043,
+          "mae": 7.2875,
+          "r2": 0.1608,
+          "mape": 1.9272
         },
         "RandomForest": {
-          "rmse": 16.9167,
-          "mae": 12.4301,
-          "r2": 0.8536,
-          "mape": 3.5532
+          "rmse": 7.6592,
+          "mae": 6.6619,
+          "r2": 0.335,
+          "mape": 1.7558
         },
         "GradientBoosting": {
-          "rmse": 19.589,
-          "mae": 14.6911,
-          "r2": 0.8037,
-          "mape": 4.1842
+          "rmse": 9.2905,
+          "mae": 8.1653,
+          "r2": 0.0216,
+          "mape": 2.1556
         },
         "Ridge": {
-          "rmse": 9.5768,
-          "mae": 7.405,
-          "r2": 0.9531,
-          "mape": 2.2041
+          "rmse": 5.4895,
+          "mae": 4.4811,
+          "r2": 0.6584,
+          "mape": 1.1672
         },
         "SVR": {
-          "rmse": 34.9102,
-          "mae": 25.1363,
-          "r2": 0.3767,
-          "mape": 7.0173
+          "rmse": 6.8884,
+          "mae": 5.5451,
+          "r2": 0.4621,
+          "mape": 1.4453
         }
       },
       "best_model_metrics": {
-        "rmse": 9.5768,
-        "mae": 7.405,
-        "r2": 0.9531,
-        "mape": 2.2041
+        "rmse": 5.4895,
+        "mae": 4.4811,
+        "r2": 0.6584,
+        "mape": 1.1672
       },
       "train_rows": 160,
-      "test_rows": 41,
+      "test_rows": 40,
       "feature_columns": [
         "ema_20",
         "sma_50",
@@ -2318,131 +5846,270 @@
         "Close",
         "Volume"
       ],
-      "trained_at": "2026-05-14T20:15:34.618400+00:00"
-    },
-    "V": {
-      "ticker": "V",
-      "best_model": "Ridge",
-      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2\\models\\V_best_model.pkl",
-      "current_price": 320.31,
-      "predicted_next_close": 319.0124,
-      "predicted_direction": "down",
-      "all_model_metrics": {
-        "XGBoost": {
-          "rmse": 9.3884,
-          "mae": 7.9919,
-          "r2": 0.0889,
-          "mape": 2.5956
-        },
-        "RandomForest": {
-          "rmse": 8.1428,
-          "mae": 6.4658,
-          "r2": 0.3146,
-          "mape": 2.0762
-        },
-        "GradientBoosting": {
-          "rmse": 8.5793,
-          "mae": 6.9629,
-          "r2": 0.2392,
-          "mape": 2.2356
-        },
-        "Ridge": {
-          "rmse": 5.4715,
-          "mae": 3.5551,
-          "r2": 0.6905,
-          "mape": 1.1323
-        },
-        "SVR": {
-          "rmse": 12.7822,
-          "mae": 11.8361,
-          "r2": -0.6889,
-          "mape": 3.8418
-        }
-      },
-      "best_model_metrics": {
-        "rmse": 5.4715,
-        "mae": 3.5551,
-        "r2": 0.6905,
-        "mape": 1.1323
-      },
-      "train_rows": 160,
-      "test_rows": 41,
-      "feature_columns": [
-        "ema_20",
-        "sma_50",
-        "rsi",
-        "macd",
-        "macd_signal",
-        "macd_hist",
-        "bb_upper",
-        "bb_lower",
-        "bb_width",
-        "bb_position",
-        "close_to_ema20",
-        "close_to_sma50",
-        "high_low_range",
-        "return_1d",
-        "return_5d",
-        "return_10d",
-        "volume_ratio",
-        "lag_1",
-        "lag_2",
-        "lag_5",
-        "Open",
-        "High",
-        "Low",
-        "Close",
-        "Volume"
-      ],
-      "trained_at": "2026-05-14T20:15:37.069022+00:00"
+      "trained_at": "2026-10-15T07:44:59.840672+00:00"
     },
     "WMT": {
       "ticker": "WMT",
       "best_model": "Ridge",
-      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2\\models\\WMT_best_model.pkl",
-      "current_price": 131.47,
-      "predicted_next_close": 131.8587,
+      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2_updated\\models\\WMT_best_model.pkl",
+      "as_of_date": "2026-10-13",
+      "predicted_for_date": "2026-10-14",
+      "actual_next_close": 116.16,
+      "price_history": [
+        {
+          "date": "2026-09-01",
+          "open": 105.11,
+          "high": 106.64,
+          "low": 104.66,
+          "close": 105.92
+        },
+        {
+          "date": "2026-09-02",
+          "open": 105.97,
+          "high": 106.78,
+          "low": 105.46,
+          "close": 106.09
+        },
+        {
+          "date": "2026-09-03",
+          "open": 106.42,
+          "high": 109.35,
+          "low": 106.02,
+          "close": 108.42
+        },
+        {
+          "date": "2026-09-04",
+          "open": 108.2,
+          "high": 109.23,
+          "low": 106.93,
+          "close": 107.14
+        },
+        {
+          "date": "2026-09-08",
+          "open": 106.78,
+          "high": 106.9,
+          "low": 105.66,
+          "close": 106.05
+        },
+        {
+          "date": "2026-09-09",
+          "open": 105.69,
+          "high": 106.15,
+          "low": 105.16,
+          "close": 105.83
+        },
+        {
+          "date": "2026-09-10",
+          "open": 106.17,
+          "high": 107.16,
+          "low": 105.59,
+          "close": 105.73
+        },
+        {
+          "date": "2026-09-11",
+          "open": 106.2,
+          "high": 107.21,
+          "low": 105.72,
+          "close": 107.15
+        },
+        {
+          "date": "2026-09-14",
+          "open": 108.08,
+          "high": 109.74,
+          "low": 108.0,
+          "close": 109.08
+        },
+        {
+          "date": "2026-09-15",
+          "open": 108.61,
+          "high": 109.24,
+          "low": 107.86,
+          "close": 108.09
+        },
+        {
+          "date": "2026-09-16",
+          "open": 108.32,
+          "high": 108.68,
+          "low": 107.45,
+          "close": 107.5
+        },
+        {
+          "date": "2026-09-17",
+          "open": 107.8,
+          "high": 107.8,
+          "low": 106.15,
+          "close": 106.79
+        },
+        {
+          "date": "2026-09-18",
+          "open": 106.24,
+          "high": 107.72,
+          "low": 106.17,
+          "close": 106.73
+        },
+        {
+          "date": "2026-09-21",
+          "open": 106.16,
+          "high": 107.76,
+          "low": 106.08,
+          "close": 107.44
+        },
+        {
+          "date": "2026-09-22",
+          "open": 108.12,
+          "high": 110.19,
+          "low": 107.61,
+          "close": 110.12
+        },
+        {
+          "date": "2026-09-23",
+          "open": 110.22,
+          "high": 111.23,
+          "low": 109.49,
+          "close": 110.53
+        },
+        {
+          "date": "2026-09-24",
+          "open": 111.17,
+          "high": 111.17,
+          "low": 107.51,
+          "close": 107.59
+        },
+        {
+          "date": "2026-09-25",
+          "open": 107.08,
+          "high": 108.15,
+          "low": 106.45,
+          "close": 107.98
+        },
+        {
+          "date": "2026-09-28",
+          "open": 107.9,
+          "high": 109.42,
+          "low": 107.27,
+          "close": 108.73
+        },
+        {
+          "date": "2026-09-29",
+          "open": 107.75,
+          "high": 107.9,
+          "low": 105.35,
+          "close": 106.8
+        },
+        {
+          "date": "2026-09-30",
+          "open": 106.97,
+          "high": 107.03,
+          "low": 103.92,
+          "close": 103.92
+        },
+        {
+          "date": "2026-10-01",
+          "open": 104.38,
+          "high": 105.1,
+          "low": 103.59,
+          "close": 104.26
+        },
+        {
+          "date": "2026-10-02",
+          "open": 104.94,
+          "high": 105.14,
+          "low": 103.81,
+          "close": 104.26
+        },
+        {
+          "date": "2026-10-05",
+          "open": 103.84,
+          "high": 105.1,
+          "low": 103.39,
+          "close": 105.07
+        },
+        {
+          "date": "2026-10-06",
+          "open": 104.5,
+          "high": 107.55,
+          "low": 104.5,
+          "close": 107.2
+        },
+        {
+          "date": "2026-10-07",
+          "open": 107.54,
+          "high": 108.8,
+          "low": 107.4,
+          "close": 108.16
+        },
+        {
+          "date": "2026-10-08",
+          "open": 108.6,
+          "high": 111.13,
+          "low": 108.44,
+          "close": 110.56
+        },
+        {
+          "date": "2026-10-09",
+          "open": 110.0,
+          "high": 111.51,
+          "low": 109.93,
+          "close": 111.35
+        },
+        {
+          "date": "2026-10-12",
+          "open": 111.5,
+          "high": 113.14,
+          "low": 111.31,
+          "close": 113.08
+        },
+        {
+          "date": "2026-10-13",
+          "open": 114.21,
+          "high": 114.83,
+          "low": 112.21,
+          "close": 112.28
+        }
+      ],
+      "current_price": 112.28,
+      "predicted_next_close": 112.9357,
       "predicted_direction": "up",
       "all_model_metrics": {
         "XGBoost": {
-          "rmse": 3.9736,
-          "mae": 3.3188,
-          "r2": -0.1948,
-          "mape": 2.5972
+          "rmse": 5.7635,
+          "mae": 5.3798,
+          "r2": -2.84,
+          "mape": 5.0635
         },
         "RandomForest": {
-          "rmse": 3.7928,
-          "mae": 3.2327,
-          "r2": -0.0886,
-          "mape": 2.5322
+          "rmse": 4.3795,
+          "mae": 3.7675,
+          "r2": -1.2172,
+          "mape": 3.5645
         },
         "GradientBoosting": {
-          "rmse": 4.2123,
-          "mae": 3.5741,
-          "r2": -0.3427,
-          "mape": 2.7983
+          "rmse": 4.8279,
+          "mae": 4.2853,
+          "r2": -1.6946,
+          "mape": 4.0486
         },
         "Ridge": {
-          "rmse": 2.0276,
-          "mae": 1.5807,
-          "r2": 0.6889,
-          "mape": 1.2604
+          "rmse": 2.2275,
+          "mae": 1.4518,
+          "r2": 0.4264,
+          "mape": 1.3621
         },
         "SVR": {
-          "rmse": 5.6095,
-          "mae": 4.7683,
-          "r2": -1.3812,
-          "mape": 3.713
+          "rmse": 8.4677,
+          "mae": 7.763,
+          "r2": -7.2888,
+          "mape": 7.3135
         }
       },
       "best_model_metrics": {
-        "rmse": 2.0276,
-        "mae": 1.5807,
-        "r2": 0.6889,
-        "mape": 1.2604
+        "rmse": 2.2275,
+        "mae": 1.4518,
+        "r2": 0.4264,
+        "mape": 1.3621
       },
       "train_rows": 160,
-      "test_rows": 41,
+      "test_rows": 40,
       "feature_columns": [
         "ema_20",
         "sma_50",
@@ -2470,55 +6137,270 @@
         "Close",
         "Volume"
       ],
-      "trained_at": "2026-05-14T20:15:39.002766+00:00"
+      "trained_at": "2026-10-15T07:45:02.126202+00:00"
     },
     "XOM": {
       "ticker": "XOM",
-      "best_model": "XGBoost",
-      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2\\models\\XOM_best_model.pkl",
-      "current_price": 151.57,
-      "predicted_next_close": 155.489,
+      "best_model": "Ridge",
+      "model_path": "C:\\Users\\vibho\\OneDrive\\Desktop\\MP_SEM2_updated\\models\\XOM_best_model.pkl",
+      "as_of_date": "2026-10-13",
+      "predicted_for_date": "2026-10-14",
+      "actual_next_close": 177.01,
+      "price_history": [
+        {
+          "date": "2026-09-01",
+          "open": 163.6,
+          "high": 164.7,
+          "low": 162.22,
+          "close": 164.55
+        },
+        {
+          "date": "2026-09-02",
+          "open": 163.93,
+          "high": 165.02,
+          "low": 162.76,
+          "close": 164.15
+        },
+        {
+          "date": "2026-09-03",
+          "open": 164.43,
+          "high": 165.65,
+          "low": 162.09,
+          "close": 162.21
+        },
+        {
+          "date": "2026-09-04",
+          "open": 161.02,
+          "high": 161.48,
+          "low": 159.16,
+          "close": 159.47
+        },
+        {
+          "date": "2026-09-08",
+          "open": 160.61,
+          "high": 163.11,
+          "low": 158.75,
+          "close": 160.66
+        },
+        {
+          "date": "2026-09-09",
+          "open": 162.88,
+          "high": 165.18,
+          "low": 162.55,
+          "close": 164.23
+        },
+        {
+          "date": "2026-09-10",
+          "open": 167.0,
+          "high": 167.37,
+          "low": 163.18,
+          "close": 165.23
+        },
+        {
+          "date": "2026-09-11",
+          "open": 165.07,
+          "high": 167.09,
+          "low": 164.08,
+          "close": 165.99
+        },
+        {
+          "date": "2026-09-14",
+          "open": 168.7,
+          "high": 169.45,
+          "low": 164.04,
+          "close": 165.08
+        },
+        {
+          "date": "2026-09-15",
+          "open": 165.36,
+          "high": 169.64,
+          "low": 165.15,
+          "close": 169.32
+        },
+        {
+          "date": "2026-09-16",
+          "open": 167.23,
+          "high": 167.5,
+          "low": 162.56,
+          "close": 163.32
+        },
+        {
+          "date": "2026-09-17",
+          "open": 161.83,
+          "high": 163.39,
+          "low": 161.45,
+          "close": 163.27
+        },
+        {
+          "date": "2026-09-18",
+          "open": 162.5,
+          "high": 163.54,
+          "low": 161.31,
+          "close": 163.54
+        },
+        {
+          "date": "2026-09-21",
+          "open": 160.96,
+          "high": 161.95,
+          "low": 157.94,
+          "close": 158.3
+        },
+        {
+          "date": "2026-09-22",
+          "open": 157.53,
+          "high": 159.97,
+          "low": 155.85,
+          "close": 158.71
+        },
+        {
+          "date": "2026-09-23",
+          "open": 159.62,
+          "high": 162.12,
+          "low": 159.42,
+          "close": 161.23
+        },
+        {
+          "date": "2026-09-24",
+          "open": 163.06,
+          "high": 164.91,
+          "low": 161.2,
+          "close": 162.14
+        },
+        {
+          "date": "2026-09-25",
+          "open": 160.23,
+          "high": 161.79,
+          "low": 159.78,
+          "close": 160.59
+        },
+        {
+          "date": "2026-09-28",
+          "open": 162.8,
+          "high": 163.54,
+          "low": 161.05,
+          "close": 162.52
+        },
+        {
+          "date": "2026-09-29",
+          "open": 160.22,
+          "high": 161.97,
+          "low": 159.27,
+          "close": 161.35
+        },
+        {
+          "date": "2026-09-30",
+          "open": 162.23,
+          "high": 164.37,
+          "low": 161.8,
+          "close": 162.75
+        },
+        {
+          "date": "2026-10-01",
+          "open": 161.5,
+          "high": 164.08,
+          "low": 160.81,
+          "close": 163.82
+        },
+        {
+          "date": "2026-10-02",
+          "open": 161.55,
+          "high": 164.61,
+          "low": 161.55,
+          "close": 164.01
+        },
+        {
+          "date": "2026-10-05",
+          "open": 163.76,
+          "high": 164.74,
+          "low": 161.39,
+          "close": 164.0
+        },
+        {
+          "date": "2026-10-06",
+          "open": 163.06,
+          "high": 165.95,
+          "low": 162.94,
+          "close": 164.48
+        },
+        {
+          "date": "2026-10-07",
+          "open": 165.6,
+          "high": 166.86,
+          "low": 163.46,
+          "close": 164.05
+        },
+        {
+          "date": "2026-10-08",
+          "open": 167.11,
+          "high": 169.19,
+          "low": 166.71,
+          "close": 168.5
+        },
+        {
+          "date": "2026-10-09",
+          "open": 167.87,
+          "high": 170.29,
+          "low": 167.82,
+          "close": 168.94
+        },
+        {
+          "date": "2026-10-12",
+          "open": 171.01,
+          "high": 172.55,
+          "low": 171.01,
+          "close": 172.15
+        },
+        {
+          "date": "2026-10-13",
+          "open": 173.45,
+          "high": 174.89,
+          "low": 172.65,
+          "close": 174.08
+        }
+      ],
+      "current_price": 174.08,
+      "predicted_next_close": 175.0616,
       "predicted_direction": "up",
       "all_model_metrics": {
         "XGBoost": {
-          "rmse": 6.1407,
-          "mae": 5.0217,
-          "r2": 0.2358,
-          "mape": 3.2059
+          "rmse": 9.0267,
+          "mae": 7.7912,
+          "r2": -5.0015,
+          "mape": 4.7244
         },
         "RandomForest": {
-          "rmse": 6.4315,
-          "mae": 4.6119,
-          "r2": 0.1617,
-          "mape": 2.8669
+          "rmse": 4.6384,
+          "mae": 3.648,
+          "r2": -0.5847,
+          "mape": 2.1996
         },
         "GradientBoosting": {
-          "rmse": 7.1044,
-          "mae": 5.0302,
-          "r2": -0.0228,
-          "mape": 3.1229
+          "rmse": 5.6941,
+          "mae": 4.7628,
+          "r2": -1.3881,
+          "mape": 2.8821
         },
         "Ridge": {
-          "rmse": 7.9674,
-          "mae": 7.0676,
-          "r2": -0.2864,
-          "mape": 4.6418
+          "rmse": 2.7795,
+          "mae": 2.1808,
+          "r2": 0.431,
+          "mape": 1.338
         },
         "SVR": {
-          "rmse": 14.5586,
-          "mae": 12.9748,
-          "r2": -3.2953,
-          "mape": 8.2413
+          "rmse": 6.2058,
+          "mae": 5.3389,
+          "r2": -1.8366,
+          "mape": 3.2522
         }
       },
       "best_model_metrics": {
-        "rmse": 6.1407,
-        "mae": 5.0217,
-        "r2": 0.2358,
-        "mape": 3.2059
+        "rmse": 2.7795,
+        "mae": 2.1808,
+        "r2": 0.431,
+        "mape": 1.338
       },
       "train_rows": 160,
-      "test_rows": 41,
+      "test_rows": 40,
       "feature_columns": [
         "ema_20",
         "sma_50",
@@ -2546,7 +6428,7 @@
         "Close",
         "Volume"
       ],
-      "trained_at": "2026-05-14T20:15:40.755976+00:00"
+      "trained_at": "2026-10-15T07:45:04.709625+00:00"
     }
   }
 }

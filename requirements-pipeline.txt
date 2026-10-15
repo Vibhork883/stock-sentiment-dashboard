@@ -14,7 +14,7 @@ spacy==3.7.4
 # After install, also run: python -m spacy download en_core_web_sm
 
 # --- Financial Data ---
-yfinance==0.2.40
+yfinance
 
 # --- ML Models ---
 xgboost==2.0.3
@@ -29,9 +29,9 @@ ta==0.11.0                  # Wraps pandas-ta style indicators cleanly
 joblib==1.4.2
 
 # --- Agentic AI ---
-crewai==0.30.11
-langchain-community==0.2.1  # Required by CrewAI for Ollama integration
-ollama==0.2.0               # Python client for local Ollama server
+#rewai>=0.30.11
+#langchain-community==0.2.1  # Required by CrewAI for Ollama integration
+#ollama==0.2.0               # Python client for local Ollama server
 
 # --- Dashboard ---
 streamlit==1.35.0

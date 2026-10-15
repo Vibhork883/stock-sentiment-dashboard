@@ -51,6 +51,17 @@ python 4_crewai_summary.py   # needs Ollama running locally: ollama pull llama3
 
 All settings (subreddits, tickers, model list, paths) are in `config.py`.
 
+## Refreshing the data
+
+The dashboard is a self-contained snapshot: prices, predictions and sentiment are all saved by the pipeline, so nothing drifts out of sync. To refresh it, run the pipeline **after the US market has closed**, then push:
+
+```bash
+python 1_scraper.py && python 2_sentiment.py && python 3_ml_predictor.py
+git add . && git commit -m "Refresh data" && git push
+```
+
+The predictor trains on prices up to the day before the latest trading day, predicts that day, and holds out the real close so the dashboard can show prediction vs actual.
+
 ## Known limitations
 
 - The CrewAI summaries were generated with a small local Ollama model on limited hardware and did not complete successfully, so that panel currently shows placeholder results. Switching to a stronger model is planned.
